@@ -11,6 +11,7 @@ const App = () => {
 
     const onBrandClick = () => {
         history.push('/');
+        console.log('ayyo');
     }
 
     return (
