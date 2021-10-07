@@ -1,4 +1,21 @@
+$color1: #000000;
+$color2: #3d3d3d;
+$color3: #848484;
+$color4: #bbbbbb;
+$color5: #ffffff;
+
+$body-bg: $color1;
+$primary: $color1;
+$secondary: $color2;
+//$success: black;
+//$info: green;
+//$warning: purple;
+//$danger: brown;
+//$light: black;
+//$dark: yellow;
+
 @import "~bootstrap/scss/bootstrap";
+
 
 body {
   margin: 0;
@@ -7,6 +24,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: $color4;
+}
+
+.fancy-font {
+  font-family: 'Brush Script MT', cursive;
 }
 
 #mainContainer {
@@ -16,11 +38,37 @@ body {
 
 #randco_navbarBrand {
   cursor: pointer;
+  color: $color4;
+  @extend .fancy-font;
+  font-size: 130%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.services-types {
+  @extend .fancy-font;
+  font-size: 200%;
+}
+
+.services-line-item-title {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  #services-list-container ~ #services-list-container {
+    margin-top: 34px;
+  }
+}
+
+#services-list-container div.services-line-item-title ~ div.services-line-item-title  {
+  margin-top: 17px;
+}
+
+.route-root {
+  margin-top: 17px;
 }
 
 .flexbox-col {

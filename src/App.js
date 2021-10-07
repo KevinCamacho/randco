@@ -16,12 +16,6 @@ const App = () => {
 
     return (
         <div id="mainContainer">
-            {/* <Container style={{backgroundColor: 'purple'}}>
-                <Row style={{justifyContent: 'center'}}>
-                    <Col xs={12} sm={6} md={3} style={{backgroundColor: 'green'}}>1 of 2</Col>
-                    <Col xs={12} sm={6} md={3} style={{backgroundColor: 'blue'}}>2 of 2</Col>
-                </Row>
-            </Container> */}
             <Navbar expand="md" bg="dark" variant="dark" sticky="top">
                 <Container fluid>
                     <Navbar.Brand id="randco_navbarBrand" onClick={onBrandClick}>Raquel & Company</Navbar.Brand>
