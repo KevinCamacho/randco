@@ -5,6 +5,7 @@ import { Nav, NavDropdown } from 'react-bootstrap';
 import { Switch, Route, useHistory } from 'react-router';
 import HomePage from './components/HomePage';
 import ServicesPage from './components/ServicesPage';
+import './App.scss';
 
 const App = () => {
     const history = useHistory();
