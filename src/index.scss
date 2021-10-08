@@ -40,6 +40,13 @@ code {
   margin-top: 17px;
 }
 
+.horizontal-divider {
+  background-color: $color3;
+  height: 2px;
+  border-radius: 10px;
+  margin: 17px 0px;
+}
+
 .flexbox-col {
   display: flex;
   flex-direction: column;

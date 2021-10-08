@@ -1,0 +1,25 @@
+#aboutUsPage_mainImage {
+    height: 250px;
+    width: 70%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    #aboutUsPage_mainImage {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+#aboutUsPage_manaPicture {
+    height: 250px;
+    width: 70%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    #aboutUsPage_manaPicture {
+        height: 200px;
+        width: 100%;
+    }
+}
