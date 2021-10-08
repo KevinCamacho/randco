@@ -1,0 +1,20 @@
+@import '../index.scss';
+
+@media screen and (max-width: 767px) {
+    #services-list-container ~ #services-list-container {
+        margin-top: 34px;
+    }
+}
+
+.services-line-item-title {
+    font-weight: bold;
+}
+  
+#services-list-container div.services-line-item-title ~ div.services-line-item-title  {
+    margin-top: 17px;
+}
+
+.services-types {
+    @extend .fancy-font;
+    font-size: 200%;
+}
