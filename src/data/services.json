@@ -1,0 +1,102 @@
+[
+    {
+        "title": "women's services",
+        "items": [
+            {
+                "serviceName": "Haircut",
+                "price": 45
+            },
+            {
+                "serviceName": "Wash & Style",
+                "price": 25
+            },
+            {
+                "serviceName": "Retouch",
+                "price": 55
+            },
+            {
+                "serviceName": "Single Process",
+                "price": 65
+            },
+            {
+                "serviceName": "Face Frame Foil",
+                "price": 40
+            },
+            {
+                "serviceName": "Half Head Foil",
+                "price": 70
+            },
+            {
+                "serviceName": "Full Head Foil",
+                "price": 100
+            },
+            {
+                "serviceName": "Balayage",
+                "price": "where is the price?"
+            },
+            {
+                "serviceName": "Face Frame",
+                "price": 65
+            },
+            {
+                "serviceName": "Partial",
+                "price": 100
+            },
+            {
+                "serviceName": "Full",
+                "price": 135
+            },
+            {
+                "serviceName": "Toner",
+                "price": 10
+            },
+            {
+                "serviceName": "Color Correction",
+                "price": "Price Upon Consultation"
+            }
+        ]
+    },
+    {
+        "title": "hair treatments",
+        "items": [
+            {
+                "serviceName": "Olapex",
+                "price": 30
+            },
+            {
+                "serviceName": "Keratin",
+                "price": 200
+            },
+            {
+                "serviceName": "Deep Conditioning",
+                "price": 15
+            }
+        ]
+    },
+    {
+        "title": "men's services",
+        "items": [
+            {
+                "serviceName": "Hair Cut",
+                "price": 25
+            },
+            {
+                "serviceName": "Glossing",
+                "price": 25
+            }
+        ]
+    },
+    {
+        "title": "waxing services",
+        "items": [
+            {
+                "serviceName": "Lip",
+                "price": 10
+            },
+            {
+                "serviceName": "Eyebrow",
+                "price:": 12
+            }
+        ]
+    }
+]
