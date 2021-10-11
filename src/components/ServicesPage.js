@@ -13,7 +13,6 @@ const ServicesPage = () => {
                 <div>Maybe some disclaimer about how prices will vary from stylist to stylist</div>
             </Row>
             <Row>
-                <div>hi</div>
                 {data.map(serviceType =>
                     <Col sm={12} md={true} id="services-list-container">
                         <div className="services-types">{serviceType.title}</div>
