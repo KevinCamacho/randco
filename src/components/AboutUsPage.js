@@ -14,13 +14,20 @@ const AboutUsPage = () => {
                 <div style={{ fontSize: '150%' }}>Maybe some text here can go about how it all started with an "idea" and a love for hair or something along those lines</div>
             </Row>
             <Row>
-                <div className="horizontal-divider"></div>
+                <Col>
+                    <div className="horizontal-divider"></div>
+                </Col>
             </Row>
             <Row style={{ marginTop: '17px' }}>
-                <Col>
-                    <div>some inspiring words about yourself what you were thinking while starting the salon, etc, etc</div>
+                <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: 'first' }}>
+                    <div style={{ textAlign: 'left' }}>
+                        <div style={{ fontSize: '150%', fontWeight: 'bold' }}>Raquel Camacho</div>
+                        <div>Our Founder</div>
+                    </div>
+
+                    <div style={{ marginTop: '17px' }}>some inspiring words about yourself what you were thinking while starting the salon, etc, etc</div>
                 </Col>
-                <Col>
+                <Col xs={{ span: 12, order: 'first' }} md={{ span: 6, order: 'last' }}>
                     <img id="aboutUsPage_manaPicture" src={manaPicture} />
                 </Col>
             </Row>
