@@ -8,7 +8,7 @@
             },
             {
                 "serviceName": "Wash & Style",
-                "price": 25
+                "price": 30
             },
             {
                 "serviceName": "Retouch",
@@ -16,43 +16,48 @@
             },
             {
                 "serviceName": "Single Process",
-                "price": 65
+                "price": 85
             },
             {
                 "serviceName": "Face Frame Foil",
-                "price": 40
+                "price": 55
             },
             {
-                "serviceName": "Half Head Foil",
-                "price": 70
+                "serviceName": "Partial Foil",
+                "price": 115
             },
             {
                 "serviceName": "Full Head Foil",
-                "price": 100
+                "price": 160
             },
             {
                 "serviceName": "Balayage",
-                "price": "where is the price?"
-            },
-            {
-                "serviceName": "Face Frame",
-                "price": 65
-            },
-            {
-                "serviceName": "Partial",
-                "price": 100
-            },
-            {
-                "serviceName": "Full",
-                "price": 135
+                "subItems": [
+                    {
+                        "serviceName": "Face Frame",
+                        "price": 80
+                    },
+                    {
+                        "serviceName": "Partial",
+                        "price": 150
+                    },
+                    {
+                        "serviceName": "Full",
+                        "price": 175
+                    }
+                ]
             },
             {
                 "serviceName": "Toner",
-                "price": 10
+                "price": "40-55"
+            },
+            {
+                "serviceName": "Root melt",
+                "price": "40-60"
             },
             {
                 "serviceName": "Color Correction",
-                "price": "Price Upon Consultation"
+                "price": "Price Upon Consultation. Hourly range $70-$85.\nCOlor services booked w/o haircut require a style/blowdry which is"
             }
         ]
     },
@@ -60,16 +65,16 @@
         "title": "hair treatments",
         "items": [
             {
-                "serviceName": "Olapex",
+                "serviceName": "Protein",
+                "price": 30
+            },
+            {
+                "serviceName": "Moisture",
                 "price": 30
             },
             {
                 "serviceName": "Keratin",
                 "price": "200+"
-            },
-            {
-                "serviceName": "Deep Conditioning",
-                "price": 15
             }
         ]
     },
@@ -78,7 +83,7 @@
         "items": [
             {
                 "serviceName": "Hair Cut",
-                "price": 25
+                "price": 30
             },
             {
                 "serviceName": "Glossing",
