@@ -12,20 +12,21 @@ const ServicesPage = () => {
                 <div>Some blurb here about the values your company has and what pride you take in your work etc, etc</div>
                 <div>Maybe some disclaimer about how prices will vary from stylist to stylist</div>
             </Row>
-            <Row>
-                {data.map(serviceType =>
-                    <Col sm={12} md={true} id="services-list-container">
-                        <div className="services-types">{serviceType.title}</div>
-                        {serviceType.items.map(service =>
-                            <>
-                                <div className="services-line-item-title">{service.serviceName}</div>
-                                <div>{service.price}</div>
-                            </>
+            {data.map(serviceCategory =>
+                <Row className="service-container">
+                    <div>
+                        <div className="service-category-title">{serviceCategory.title}</div>
+                    </div>
+                    <div id="serviceList">
+                        {serviceCategory.items.map(service =>
+                            <Row className="service-line-item">
+                                <Col className="service-title">{service.serviceName}</Col>
+                                <Col>{service.price}</Col>
+                            </Row>
                         )}
-
-                    </Col>
-                )}
-            </Row>
+                    </div>
+                </Row>
+            )}
         </Container>
     )
 };
