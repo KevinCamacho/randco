@@ -65,7 +65,7 @@
             },
             {
                 "serviceName": "Keratin",
-                "price": 200
+                "price": "200+"
             },
             {
                 "serviceName": "Deep Conditioning",
@@ -95,7 +95,7 @@
             },
             {
                 "serviceName": "Eyebrow",
-                "price:": 12
+                "price": 12
             }
         ]
     }
