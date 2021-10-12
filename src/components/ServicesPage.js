@@ -12,20 +12,23 @@ const ServicesPage = () => {
                 <div>Some blurb here about the values your company has and what pride you take in your work etc, etc</div>
                 <div>Maybe some disclaimer about how prices will vary from stylist to stylist</div>
             </Row>
-            {data.map(serviceCategory =>
-                <Row className="service-container">
-                    <div>
-                        <div className="service-category-title">{serviceCategory.title}</div>
-                    </div>
-                    <div id="serviceList">
-                        {serviceCategory.items.map(service =>
-                            <Row className="service-line-item">
-                                <Col className="service-title">{service.serviceName}</Col>
-                                <Col>{service.price}</Col>
-                            </Row>
-                        )}
-                    </div>
-                </Row>
+            {data.map((serviceCategory, index) =>
+                <>
+                    <div className="horizontal-divider"></div>
+                    <Row className="service-container">
+                        <div>
+                            <div className="service-category-title">{serviceCategory.title}</div>
+                        </div>
+                        <div id="serviceList">
+                            {serviceCategory.items.map(service =>
+                                <Row className="service-line-item">
+                                    <Col className="service-title">{service.serviceName}</Col>
+                                    <Col>{service.price}</Col>
+                                </Row>
+                            )}
+                        </div>
+                    </Row>
+                </>
             )}
         </Container>
     )

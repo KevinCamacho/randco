@@ -1,9 +1,5 @@
 @import '../index.scss';
 
-div.service-container ~ div.service-container {
-    padding-top: 50px;
-}
-
 .service-category-title {
     @extend .fancy-font;
     font-size: 200%;
