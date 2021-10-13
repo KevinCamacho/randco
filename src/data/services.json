@@ -58,6 +58,10 @@
             {
                 "serviceName": "Color Correction",
                 "price": "Price Upon Consultation. Hourly range $70-$85.\nCOlor services booked w/o haircut require a style/blowdry which is"
+            },
+            {
+                "serviceName": "Hair extensions",
+                "price": "Price Upon Consultation"
             }
         ]
     },
@@ -88,19 +92,6 @@
             {
                 "serviceName": "Glossing",
                 "price": 25
-            }
-        ]
-    },
-    {
-        "title": "waxing services",
-        "items": [
-            {
-                "serviceName": "Lip",
-                "price": 10
-            },
-            {
-                "serviceName": "Eyebrow",
-                "price": 12
             }
         ]
     }
