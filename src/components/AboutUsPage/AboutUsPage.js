@@ -1,10 +1,10 @@
-import { React } from 'react';
+import React from 'react';
 import './AboutUsPage.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import payTerminal from '../images/RCO-59.jpg';
-import manaPicture from '../images/RCO-82.jpg';
+import payTerminal from '../../images/RCO-59.jpg';
+import manaPicture from '../../images/RCO-82.jpg';
 
 const AboutUsPage = () => {
     return (

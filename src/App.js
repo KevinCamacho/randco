@@ -1,12 +1,13 @@
-import { React } from 'react';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Switch, Route, useHistory } from 'react-router';
 import HomePage from './components/HomePage';
-import ServicesPage from './components/ServicesPage';
+import ServicesPage from './components/ServicesPage/ServicesPage';
 import './App.scss';
-import AboutUsPage from './components/AboutUsPage';
+import AboutUsPage from './components/AboutUsPage/AboutUsPage';
+import StylistsPage from './components/StylistsPage/StylistsPage';
 
 const App = () => {
     const history = useHistory();
@@ -36,6 +37,7 @@ const App = () => {
                 <Route exact path='/' component={HomePage} />
                 <Route exact path='/services' component={ServicesPage} />
                 <Route exact path='/about-us' component={AboutUsPage} />
+                <Route exact path='/meet-the-stylists' component={StylistsPage} />
             </Switch>
         </div>
     )
