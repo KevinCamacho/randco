@@ -12,10 +12,16 @@ const ServicesPage = () => {
                 <div>Some blurb here about the values your company has and what pride you take in your work etc, etc</div>
                 <div>Maybe some disclaimer about how prices will vary from stylist to stylist</div>
             </Row>
+            <Row>
+                <div className="price-disclaimer">All prices are base amounts, depending on stylist, hair
+                    length/thickness, and hair integrity. For a proper
+                    estimate, schedule a free consultation. Prices are
+                    subject to change at anytime.</div>
+            </Row>
             {data.map((serviceCategory, index) =>
                 <>
                     <div className="horizontal-divider"></div>
-                    <Row className="service-container">
+                    <Row>
                         <div>
                             <div className="service-category-title">{serviceCategory.title}</div>
                         </div>
@@ -27,6 +33,9 @@ const ServicesPage = () => {
                                 </Row>
                             )}
                         </div>
+                        {serviceCategory.sectionFooter && (
+                            <div className="service-footer">***{serviceCategory.sectionFooter}***</div>
+                        )}
                     </Row>
                 </>
             )}

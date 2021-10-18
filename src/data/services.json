@@ -1,6 +1,7 @@
 [
     {
         "title": "women's services",
+        "sectionFooter": "Color services booked w/o haircut require a style/blowdry which is $15",
         "items": [
             {
                 "serviceName": "Haircut",
@@ -31,21 +32,16 @@
                 "price": 160
             },
             {
-                "serviceName": "Balayage",
-                "subItems": [
-                    {
-                        "serviceName": "Face Frame",
-                        "price": 80
-                    },
-                    {
-                        "serviceName": "Partial",
-                        "price": 150
-                    },
-                    {
-                        "serviceName": "Full",
-                        "price": 175
-                    }
-                ]
+                "serviceName": "Face Frame Bayalage",
+                "price": 80
+            },
+            {
+                "serviceName": "Partial Bayalage",
+                "price": 150
+            },
+            {
+                "serviceName": "Full Bayalage",
+                "price": 175
             },
             {
                 "serviceName": "Toner",
@@ -57,7 +53,7 @@
             },
             {
                 "serviceName": "Color Correction",
-                "price": "Price Upon Consultation. Hourly range $70-$85.\nCOlor services booked w/o haircut require a style/blowdry which is"
+                "price": "Price Upon Consultation. Hourly range $70-$85."
             },
             {
                 "serviceName": "Hair extensions",
