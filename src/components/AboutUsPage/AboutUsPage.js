@@ -21,7 +21,7 @@ const AboutUsPage = () => {
             <Row style={{ marginTop: '17px' }}>
                 <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: 'first' }}>
                     <div style={{ textAlign: 'left' }}>
-                        <div style={{ fontSize: '150%', fontWeight: 'bold' }}>Raquel Araujo</div>
+                        <div className="person-name">Raquel Araujo</div>
                         <div>Our Founder</div>
                     </div>
 
