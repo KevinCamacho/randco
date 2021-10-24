@@ -11,11 +11,16 @@ const StylistsPage = () => {
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <img id="stylistsPage_mainImage" src={laughingPicture} />
             <Row style={{ marginTop: '17px' }}>
-                <div style={{ fontSize: '150%' }}>Stylists</div>
+                <div style={{ fontSize: '150%' }}>Meet our Team</div>
             </Row>
-            {stylists.map((stylist, index) =>
-                <StylistView key={index} stylist={stylist} index={index} />
-            )}
+            <Row>
+                <div className="horizontal-divider"></div>
+            </Row>
+            <div id="stylistContainer">
+                {stylists.map((stylist, index) =>
+                    <StylistView key={index} stylist={stylist} index={index} />
+                )}
+            </div>
         </Container>
     )
 }

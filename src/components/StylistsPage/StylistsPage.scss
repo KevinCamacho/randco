@@ -11,3 +11,7 @@
         width: 100%;
     }
 }
+
+#stylistContainer .stylist-view ~ .stylist-view {
+    margin-top: 68px;
+}

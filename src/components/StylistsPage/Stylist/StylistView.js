@@ -6,17 +6,14 @@ import Col from 'react-bootstrap/Col';
 const Stylist = ({ stylist, index }) => {
     const isEvenStylist = index % 2 === 0;
     return (
-        <Row>
-            <Col xs={{ order: 'last' }} md={{ order: 'first' }}>
+        <Row className="stylist-view">
+            <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: isEvenStylist ? 'first' : 'last' }}>
                 <Row>
                     <div className="person-name">{stylist.name}</div>
                     <div style={{ marginTop: '17px' }}>{stylist.flavorText}</div>
                 </Row>
             </Col>
-            {/*
-            <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: 'first' }}>
-            */}
-            <Col className="flexbox-col" style={{ justifyContent: 'center' }} xs={{ order: 'first' }} md={{ order: 'last' }}>
+            <Col className="flexbox-col" xs={{ span: 12, order: 'first' }} md={{ span: 6, order: isEvenStylist ? 'last' : 'first' }}>
                 <img className="stylist-image" src={require(`../../../images/${stylist.image}`).default} />
             </Col>
         </Row>
