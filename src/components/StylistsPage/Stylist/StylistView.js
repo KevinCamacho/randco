@@ -2,6 +2,7 @@ import React from 'react';
 import './StylistView.scss';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Stylist = ({ stylist, index }) => {
     const isEvenStylist = index % 2 === 0;
@@ -14,7 +15,7 @@ const Stylist = ({ stylist, index }) => {
                 </Row>
             </Col>
             <Col className="flexbox-col" xs={{ span: 12, order: 'first' }} md={{ span: 6, order: isEvenStylist ? 'last' : 'first' }}>
-                <img className="stylist-image" src={require(`../../../images/${stylist.image}`).default} />
+                <LazyLoadImage className="stylist-image" src={require(`../../../images/${stylist.image}`).default} effect="blur" />
             </Col>
         </Row>
     )
