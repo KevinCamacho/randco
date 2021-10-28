@@ -18,7 +18,7 @@ const StylistsPage = () => {
             </Row>
             <div id="stylistContainer">
                 {stylists.map((stylist, index) =>
-                    <StylistView key={index} stylist={stylist} index={index} />
+                    <StylistView key={stylist.name} stylist={stylist} index={index} />
                 )}
             </div>
         </Container>

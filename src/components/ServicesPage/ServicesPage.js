@@ -19,7 +19,7 @@ const ServicesPage = () => {
                     subject to change at anytime.</div>
             </Row>
             {data.map((serviceCategory, index) =>
-                <>
+                <div key={serviceCategory.title}>
                     <div className="horizontal-divider"></div>
                     <Row>
                         <div>
@@ -27,7 +27,7 @@ const ServicesPage = () => {
                         </div>
                         <div id="serviceList">
                             {serviceCategory.items.map(service =>
-                                <Row className="service-line-item">
+                                <Row key={service.serviceName} className="service-line-item">
                                     <Col className="service-title">{service.serviceName}</Col>
                                     <Col>{service.price}</Col>
                                 </Row>
@@ -37,7 +37,7 @@ const ServicesPage = () => {
                             <div className="service-footer">***{serviceCategory.sectionFooter}***</div>
                         )}
                     </Row>
-                </>
+                </div>
             )}
         </Container>
     )
