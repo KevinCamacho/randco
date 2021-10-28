@@ -67,3 +67,27 @@ code {
   font-size: 150%;
   font-weight: bold;
 }
+
+.social-logo {
+  cursor: pointer;
+}
+
+.social-logo-container {
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%
+}
+
+.facebook-logo {
+  @extend .social-logo;
+  height: 25px;
+  width: 25px;
+  object-fit: contain;
+}
+
+.insta-logo {
+  @extend .social-logo;
+  height: 25px;
+  width: 25px;
+}
