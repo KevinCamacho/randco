@@ -28,7 +28,7 @@ const AboutUsPage = () => {
                     <div style={{ marginTop: '17px' }}>some inspiring words about yourself what you were thinking while starting the salon, etc, etc</div>
                 </Col>
                 <Col xs={{ span: 12, order: 'first' }} md={{ span: 6, order: 'last' }}>
-                    <img id="aboutUsPage_manaPicture" src={manaPicture} />
+                    <img id="aboutUsPage_manaPicture" src={manaPicture} alt="Raquel Araujo" />
                 </Col>
             </Row>
         </Container>
