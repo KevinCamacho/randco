@@ -8,6 +8,7 @@ import ServicesPage from './components/ServicesPage/ServicesPage';
 import './App.scss';
 import AboutUsPage from './components/AboutUsPage/AboutUsPage';
 import StylistsPage from './components/StylistsPage/StylistsPage';
+import ContactUsPage from './components/ContactUsPage/ContactUsPage';
 
 const App = () => {
     const history = useHistory();
@@ -38,6 +39,7 @@ const App = () => {
                 <Route exact path='/services' component={ServicesPage} />
                 <Route exact path='/about-us' component={AboutUsPage} />
                 <Route exact path='/meet-the-stylists' component={StylistsPage} />
+                <Route exact path='/contact-us' component={ContactUsPage} />
             </Switch>
         </div>
     )
