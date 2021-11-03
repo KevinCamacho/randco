@@ -21,7 +21,9 @@ const Stylist = ({ stylist, index }) => {
                             {stylist.instagram && <img style={{ marginLeft: '17px' }} className="insta-logo" src={instaIcon} alt="instagram" onClick={() => window.open(stylist.instagram)} />}
                         </div>
                     </Col>
-                    <div style={{ marginTop: '17px' }}>{stylist.flavorText}</div>
+                    <div style={{ marginTop: '17px' }}>
+                        {stylist.flavorText.split('\n').map(text => <div>{text}</div>)}
+                    </div>
                 </Row>
             </Col>
             <Col className="flexbox-col" xs={{ span: 12, order: 'first' }} md={{ span: 6, order: isEvenStylist ? 'last' : 'first' }}>
