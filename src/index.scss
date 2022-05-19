@@ -91,3 +91,13 @@ code {
   height: 25px;
   width: 25px;
 }
+
+a.nav-link.active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a.nav-link:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
