@@ -27,11 +27,7 @@ const ContactUsPage = () => {
                 <div>Email us</div>
             </Row>
             <Row style={{ marginTop: '34px' }}>
-                <div>9 Bridge St</div>
-                <div>Montgomery, NY 12549</div>
-                <a className="cellphone-link" href="comgooglemaps://?center=40.765819,-73.975866&zoom=14&views=traffic">the address</a>
-                <a className="cellphone-link" href="geo:50.066274, 10.754427;" target="_blank">Click here for map</a>
-                <a className="cellphone-link" href='https://maps.google.com/?q=raquel+and+company+hair+salon+montgomery'>test test</a>
+                <a className="cellphone-link" href='https://maps.google.com/?q=raquel+and+company+hair+salon+montgomery'>9 Bridge St<br />Montgomery, NY 12549</a>
             </Row>
         </Container>
     )
