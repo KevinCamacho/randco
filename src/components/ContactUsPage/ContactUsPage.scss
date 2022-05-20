@@ -1,0 +1,9 @@
+@import '../../index.scss';
+
+.cellphone-link {
+    color: $color4;
+
+    &:hover {
+        color: $color4  !important;
+    }
+}

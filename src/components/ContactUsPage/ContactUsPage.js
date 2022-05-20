@@ -20,10 +20,10 @@ const ContactUsPage = () => {
                 <img className="facebook-logo" src={facebookIcon} alt="facebook" onClick={() => window.open('https://www.facebook.com/RaquelandCompany')} />
                 < img style={{ marginLeft: '17px' }} className="insta-logo" src={instaIcon} alt="instagram" onClick={() => window.open('https://www.instagram.com/randcosalon/')} />
             </div>
-            <Row>
-                <div>Call Us: 845-457-3660</div>
+            <Row style={{ marginTop: '34px' }}>
+                <a className="cellphone-link" href="tel:+8454573660">845-457-3660</a>
             </Row>
-            <Row>
+            <Row style={{ marginTop: '34px' }}>
                 <div>Email us</div>
             </Row>
             <Row style={{ marginTop: '34px' }}>
