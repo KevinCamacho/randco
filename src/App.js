@@ -15,16 +15,16 @@ const App = () => {
 
     return (
         <div id="mainContainer">
-            <Navbar expand="md" bg="dark" variant="dark" sticky="top">
+            <Navbar expand="md" bg="dark" variant="dark" sticky="top" collapseOnSelect>
                 <Container fluid>
                     <Navbar.Brand id="randco_navbarBrand" onClick={() => navigate('/')}>Raquel & Company</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbar" />
                     <Navbar.Collapse id="navbar">
-                        <Nav className="justify-content-end" style={{ width: "100%" }}>
-                            <Nav.Link eventKey="Services" onClick={() => navigate('services')}>Services</Nav.Link>
-                            <Nav.Link eventKey="AboutUs" onClick={() => navigate('about-us')}>About Us</Nav.Link>
-                            <Nav.Link eventKey="Stylists" onClick={() => navigate('/meet-the-stylists')}>Stylists</Nav.Link>
-                            <Nav.Link eventKey="ContactUs" onClick={() => navigate('/contact-us')}>Contact Us</Nav.Link>
+                        <Nav className="justify-content-end" style={{ width: "100%" }} onSelect={selectedPath => navigate(selectedPath)}>
+                            <Nav.Link eventKey="/services" /* onClick={() => navigate('services')} */>Services</Nav.Link>
+                            <Nav.Link eventKey="/about-us" /* onClick={() => navigate('about-us')} */>About Us</Nav.Link>
+                            <Nav.Link eventKey="/meet-the-stylists" /* onClick={() => navigate('/meet-the-stylists')} */>Stylists</Nav.Link>
+                            <Nav.Link eventKey="/contact-us" /* onClick={() => navigate('/contact-us')} */>Contact Us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
