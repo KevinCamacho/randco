@@ -9,8 +9,7 @@ const ServicesPage = () => {
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <Row>
-                <div>Some blurb here about the values your company has and what pride you take in your work etc, etc</div>
-                <div>Maybe some disclaimer about how prices will vary from stylist to stylist</div>
+                <div>At Raquel {'&'} Company we strive to provide the best services at the best price. If you have any questions please reach out!</div>
             </Row>
             <Row>
                 <div className="price-disclaimer">All prices are base amounts, depending on stylist, hair
