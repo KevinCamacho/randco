@@ -7,6 +7,9 @@ import facebookIcon from '../../../images/socials/fb_logo.png';
 import instaIcon from '../../../images/socials/insta_logo.png';
 
 const Stylist = ({ stylist, index }) => {
+
+    const stylistImage = require(`../../../images/${stylist.image}`);
+
     const isEvenStylist = index % 2 === 0;
     return (
         <Row className="stylist-view">
@@ -27,7 +30,7 @@ const Stylist = ({ stylist, index }) => {
                 </Row>
             </Col>
             <Col className="flexbox-col" xs={{ span: 12, order: 'first' }} md={{ span: 6, order: isEvenStylist ? 'last' : 'first' }}>
-                <LazyLoadImage className="stylist-image" src={require(`../../../images/${stylist.image}`).default} alt={stylist.name} effect="blur" />
+                <LazyLoadImage className="stylist-image" src={stylistImage} alt={stylist.name} effect="blur" />
             </Col>
         </Row>
     )
