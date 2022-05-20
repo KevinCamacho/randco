@@ -31,6 +31,7 @@ const ContactUsPage = () => {
                 <div>Montgomery, NY 12549</div>
                 <a className="cellphone-link" href="comgooglemaps://?center=40.765819,-73.975866&zoom=14&views=traffic">the address</a>
                 <a className="cellphone-link" href="geo:50.066274, 10.754427;" target="_blank">Click here for map</a>
+                <a className="cellphone-link" href='https://maps.google.com/?q=raquel+and+company+hair+salon+montgomery'>test test</a>
             </Row>
         </Container>
     )
