@@ -29,6 +29,8 @@ const ContactUsPage = () => {
             <Row style={{ marginTop: '34px' }}>
                 <div>9 Bridge St</div>
                 <div>Montgomery, NY 12549</div>
+                <a className="cellphone-link" href="comgooglemaps://?center=40.765819,-73.975866&zoom=14&views=traffic">the address</a>
+                <a className="cellphone-link" href="geo:50.066274, 10.754427;" target="_blank">Click here for map</a>
             </Row>
         </Container>
     )
