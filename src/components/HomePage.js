@@ -11,6 +11,15 @@ const HomePage = () => {
     const navigate = useNavigate();
     const isMobile = useMediaQuery({ maxWidth: 767 });
 
+    const handleCarouselImageClick = carouselItem => {
+        console.log('handle click for this item', carouselItem);
+        if (carouselItem.navigate) {
+            navigate(carouselItem.navigate);
+        } else if (carouselItem.redirect) {
+            window.open(carouselItem.redirect);
+        }
+    };
+
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <Carousel pause="hover">
@@ -18,7 +27,7 @@ const HomePage = () => {
                     const imageName = isMobile ? carouselItem.mobileImage : carouselItem.desktopImage;
                     const carouselImage = require(`../images/${imageName}`);
                     return (
-                        <Carousel.Item className="cursor-pointer" onClick={() => navigate(carouselItem.navigate)}>
+                        <Carousel.Item className="cursor-pointer" onClick={() => handleCarouselImageClick(carouselItem)}>
                             <LazyLoadImage className="carousel-image" src={carouselImage} alt={carouselItem.altText} effect="blur" />
                             <Carousel.Caption>
                                 <h3>{carouselItem.text}</h3>
