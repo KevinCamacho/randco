@@ -5,11 +5,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import payTerminal from '../../images/RCO-59.jpg';
 import manaPicture from '../../images/RCO-82.jpg';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const AboutUsPage = () => {
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
-            <img id="aboutUsPage_mainImage" src={payTerminal} />
+            <LazyLoadImage id="aboutUsPage_mainImage" src={payTerminal} effect="blur" />
             <Row style={{ marginTop: '17px' }}>
                 <div style={{ fontSize: '150%' }}>About Us</div>
             </Row>
@@ -28,7 +29,7 @@ const AboutUsPage = () => {
                     <div style={{ marginTop: '17px' }}>What started as a one woman show is now a bustling salon with a full team.  Raquel felt like there was a void in the village of Montgomery… She wanted to create an intimate boutique space where great hair & small town community feels collided. We believe in continuing education so that our team is always on the cutting edge of trends, techniques and products. When you sit in any one of our stylists chairs you know you are getting a customized  service and the best products for you hair.</div>
                 </Col>
                 <Col xs={{ span: 12, order: 'first' }} md={{ span: 6, order: 'last' }}>
-                    <img id="aboutUsPage_manaPicture" src={manaPicture} alt="Raquel Araujo" />
+                    <LazyLoadImage id="aboutUsPage_manaPicture" src={manaPicture} alt="Raquel Araujo" effect="blur" />
                 </Col>
             </Row>
         </Container>

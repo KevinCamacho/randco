@@ -6,11 +6,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import stylists from '../../data/stylists.json';
 import StylistView from './Stylist/StylistView';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const StylistsPage = () => {
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
-            <img id="stylistsPage_mainImage" src={laughingPicture} />
+            <LazyLoadImage id="stylistsPage_mainImage" src={laughingPicture} effect="blur" />
             <Row style={{ marginTop: '17px' }}>
                 <div style={{ fontSize: '150%' }}>Meet our Team</div>
             </Row>
