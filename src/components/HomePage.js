@@ -1,8 +1,10 @@
 import React from 'react';
+import './HomePage.scss';
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
 import { useNavigate } from 'react-router-dom';
 import carouselData from '../data/carousel.json';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const HomePage = () => {
     const navigate = useNavigate();
@@ -14,11 +16,7 @@ const HomePage = () => {
                     const carouselImage = require(`../images/${carouselItem.image}`);
                     return (
                         <Carousel.Item className="cursor-pointer" onClick={() => navigate(carouselItem.navigate)}>
-                            <img
-                                className="d-block w-100"
-                                src={carouselImage}
-                                alt={carouselItem.altText}
-                            />
+                            <LazyLoadImage className="carousel-image" src={carouselImage} alt={carouselItem.altText} effect="blur" />
                             <Carousel.Caption>
                                 <h3>{carouselItem.text}</h3>
                             </Carousel.Caption>
