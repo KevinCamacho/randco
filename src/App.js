@@ -17,7 +17,7 @@ const App = () => {
         <div id="mainContainer">
             <Navbar expand="md" bg="dark" variant="dark" sticky="top" collapseOnSelect>
                 <Container fluid>
-                    <Navbar.Brand id="randco_navbarBrand" onClick={() => navigate('/')}>Raquel & Company</Navbar.Brand>
+                    <Navbar.Brand id="randco_navbarBrand" className="cursor-pointer" onClick={() => navigate('/')}>Raquel & Company</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbar" />
                     <Navbar.Collapse id="navbar">
                         <Nav className="justify-content-end" style={{ width: "100%" }} onSelect={selectedPath => navigate(selectedPath)}>

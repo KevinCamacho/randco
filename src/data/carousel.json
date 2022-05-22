@@ -1,0 +1,14 @@
+[
+    {
+        "image": "RCO-1.jpg",
+        "text": "Meet the team behind it all",
+        "altText": "Meet the team",
+        "navigate": "/meet-the-stylists"
+    },
+    {
+        "image": "RCO-101.jpg",
+        "text": "Check out our products",
+        "altText": "Products",
+        "navigate": "/products"
+    }
+]
