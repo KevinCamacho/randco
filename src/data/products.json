@@ -1,14 +1,16 @@
 {
     "heroImage": "RCO-101.jpg",
-    "heroText": "",
+    "heroText": "Here at Raquel & Company our goal is to use and offer the best hair products available. That's why we're proud to offer these products in our salon!",
     "items": [
         {
-            "product": "R+Co Shampoos",
-            "image": ""
+            "productName": "R+Co Shampoos",
+            "productImage": "RCO-101.jpg",
+            "productLink": ""
         },
         {
-            "product": "Numa",
-            "image": ""
+            "productName": "Numa",
+            "productImage": "RCO-92.jpg",
+            "productLink": ""
         }
     ]
 }
