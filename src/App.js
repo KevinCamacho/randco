@@ -9,6 +9,7 @@ import './App.scss';
 import AboutUsPage from './components/AboutUsPage/AboutUsPage';
 import StylistsPage from './components/StylistsPage/StylistsPage';
 import ContactUsPage from './components/ContactUsPage/ContactUsPage';
+import ProductsPage from './components/ProductsPage/ProductsPage';
 
 const App = () => {
     const navigate = useNavigate();
@@ -24,6 +25,7 @@ const App = () => {
                             <Nav.Link eventKey="/about-us">About Us</Nav.Link>
                             <Nav.Link eventKey="/services">Services</Nav.Link>
                             <Nav.Link eventKey="/meet-the-stylists">Stylists</Nav.Link>
+                            <Nav.Link eventKey="/products">Products</Nav.Link>
                             <Nav.Link eventKey="/contact-us">Contact Us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
@@ -34,6 +36,7 @@ const App = () => {
                 <Route exact path='/services' element={<ServicesPage />} />
                 <Route exact path='/about-us' element={<AboutUsPage />} />
                 <Route exact path='/meet-the-stylists' element={<StylistsPage />} />
+                <Route exact path='/products' element={<ProductsPage />} />
                 <Route exact path='/contact-us' element={<ContactUsPage />} />
             </Routes>
         </div>
