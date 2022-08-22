@@ -30,7 +30,7 @@ const HomePage = () => {
                         <Carousel.Item className="cursor-pointer" onClick={() => handleCarouselImageClick(carouselItem)}>
                             <LazyLoadImage className="carousel-image" src={carouselImage} alt={carouselItem.altText} effect="blur" />
                             <Carousel.Caption>
-                                <h3>{carouselItem.text}</h3>
+                                <h3 className="white-text-black-border">{carouselItem.text}</h3>
                             </Carousel.Caption>
                         </Carousel.Item>)
                 })}

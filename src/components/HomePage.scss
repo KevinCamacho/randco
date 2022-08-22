@@ -1,3 +1,5 @@
+@import '../index.scss';
+
 .carousel-image {
     height: 550px;
     width: 70%;
@@ -9,4 +11,18 @@
         height: calc(100vh - 91px);
         width: 100%;
     }
+}
+
+.white-text-black-border {
+    color: $color4;
+    // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow:
+        -1px -1px 0 #000,
+        0 -1px 0 #000,
+        1px -1px 0 #000,
+        1px 0 0 #000,
+        1px 1px 0 #000,
+        0 1px 0 #000,
+        -1px 1px 0 #000,
+        -1px 0 0 #000;
 }
