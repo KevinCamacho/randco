@@ -12,7 +12,6 @@ const HomePage = () => {
     const isMobile = useMediaQuery({ maxWidth: 767 });
 
     const handleCarouselImageClick = carouselItem => {
-        console.log('handle click for this item', carouselItem);
         if (carouselItem.navigate) {
             navigate(carouselItem.navigate);
         } else if (carouselItem.redirect) {

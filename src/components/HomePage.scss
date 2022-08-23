@@ -1,21 +1,20 @@
 @import '../index.scss';
 
 .carousel-image {
-    height: 550px;
-    width: 70%;
+    height: calc(60vh);
+    width: 100%;
     object-fit: cover;
 }
 
 @media screen and (max-width: 767px) {
     .carousel-image {
-        height: calc(100vh - 91px);
+        height: calc(100vh - 91px); // 91 pixels is the height of the toolbar + margin top and padding bottom of the route-root container
         width: 100%;
     }
 }
 
 .white-text-black-border {
     color: $color4;
-    // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     text-shadow:
         -1px -1px 0 #000,
         0 -1px 0 #000,
