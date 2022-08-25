@@ -109,3 +109,11 @@ a.nav-link:focus {
 .lazy-load-image-background {
   width: 100% !important;
 }
+
+.color-corrected-link {
+  color: $color4;
+
+  &:hover {
+    color: $color4  !important;
+  }
+}

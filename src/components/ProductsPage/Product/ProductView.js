@@ -12,18 +12,12 @@ const ProductView = ({ product, index }) => {
         <Row className="product-view">
             <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: isEvenProduct ? 'first' : 'last' }}>
                 <Row>
-                    {/* <Col>
-                        <div className="person-name">{stylist.name}</div>
-                    </Col>
-                    <Col xs="auto">
-                        <div className="flexbox-row social-logo-container">
-                            {stylist.facebook && <img className="facebook-logo" src={facebookIcon} alt="facebook" onClick={() => window.open(stylist.facebook)} />}
-                            {stylist.instagram && <img style={{ marginLeft: '17px' }} className="insta-logo" src={instaIcon} alt="instagram" onClick={() => window.open(stylist.instagram)} />}
-                        </div>
+                    <Col>
+                        <div className="product-name"><a className="color-corrected-link" href={product.productLink} target="_blank" rel="noopener noreferrer" >{product.productName}</a></div>
                     </Col>
                     <div style={{ marginTop: '17px' }}>
-                        {stylist.flavorText.split('\n').map(text => <div>{text}</div>)}
-                    </div> */}
+                        {product.productDescription.split('\n').map(text => <div>{text}</div>)}
+                    </div>
                 </Row>
             </Col>
             <Col className="flexbox-col" xs={{ span: 12, order: 'first' }} md={{ span: 6, order: isEvenProduct ? 'last' : 'first' }}>

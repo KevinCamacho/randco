@@ -5,12 +5,14 @@
         {
             "productName": "R+Co Shampoos",
             "productImage": "RCO-101.jpg",
-            "productLink": ""
+            "productDescription": "A product description",
+            "productLink": "http://www.google.com/"
         },
         {
             "productName": "Numa",
             "productImage": "RCO-92.jpg",
-            "productLink": ""
+            "productDescription": "Product Description",
+            "productLink": "http://www.google.com/"
         }
     ]
 }

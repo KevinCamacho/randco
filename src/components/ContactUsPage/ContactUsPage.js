@@ -21,13 +21,13 @@ const ContactUsPage = () => {
                 <img style={{ marginLeft: '17px' }} className="insta-logo" src={instaIcon} alt="instagram" onClick={() => window.open('https://www.instagram.com/randcosalon/')} />
             </div>
             <Row style={{ marginTop: '34px' }}>
-                <div>Call us:</div><a className="contact-us-link" href="tel:8454573660">845-457-3660</a>
+                <div>Call us:</div><a className="color-corrected-link" href="tel:8454573660" target="_blank" rel="noopener noreferrer">845-457-3660</a>
             </Row>
             <Row style={{ marginTop: '34px' }}>
-                <div>Email us</div><a className="contact-us-link" href="mailto:raquel@raquelandcompany.com">raquel@raquelandcompany.com</a>
+                <div>Email us</div><a className="color-corrected-link" href="mailto:raquel@raquelandcompany.com" target="_blank" rel="noopener noreferrer">raquel@raquelandcompany.com</a>
             </Row>
             <Row style={{ marginTop: '34px' }}>
-                <a className="contact-us-link" href='https://maps.google.com/?q=raquel+and+company+hair+salon+montgomery'>9 Bridge St<br />Montgomery, NY 12549</a>
+                <a className="color-corrected-link" href='https://maps.google.com/?q=raquel+and+company+hair+salon+montgomery' target="_blank" rel="noopener noreferrer">9 Bridge St<br />Montgomery, NY 12549</a>
             </Row>
         </Container>
     )
