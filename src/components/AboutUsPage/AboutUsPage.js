@@ -19,7 +19,7 @@ const AboutUsPage = () => {
                     <div className="horizontal-divider"></div>
                 </Col>
             </Row>
-            <Row style={{ marginTop: '17px' }}>
+            <Row>
                 <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: 'first' }}>
                     <div style={{ textAlign: 'left' }}>
                         <div className="person-name">Raquel Araujo</div>
