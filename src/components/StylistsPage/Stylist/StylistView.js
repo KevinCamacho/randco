@@ -8,7 +8,7 @@ import instaIcon from '../../../images/socials/insta_logo.png';
 
 const Stylist = ({ stylist, index }) => {
 
-    const stylistImage = require(`../../../images/${stylist.image}`);
+    const stylistImage = require(`../../../images/StylistsPage/${stylist.image}`);
 
     const isEvenStylist = index % 2 === 0;
     return (
