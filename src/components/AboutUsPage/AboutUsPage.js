@@ -9,10 +9,10 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const AboutUsPage = () => {
     return (
-        <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
+        <Container id="aboutUsPage-container" fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <LazyLoadImage id="aboutUsPage_mainImage" src={payTerminal} effect="blur" />
             <Row style={{ marginTop: '17px' }}>
-                <div style={{ fontSize: '150%' }}>About Us</div>
+                <div id="aboutUsPage-AboutUsText">About Us</div>
             </Row>
             <Row>
                 <Col>
@@ -22,7 +22,7 @@ const AboutUsPage = () => {
             <Row>
                 <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: 'first' }}>
                     <div style={{ textAlign: 'left' }}>
-                        <div className="person-name">Raquel Araujo</div>
+                        <div id="aboutUsPage-OwnerName" className="person-name">Raquel Araujo</div>
                         <div>Our Founder</div>
                     </div>
 
