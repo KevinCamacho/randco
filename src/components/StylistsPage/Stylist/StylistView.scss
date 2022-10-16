@@ -4,6 +4,16 @@
     object-fit: cover;
 }
 
+.stylist-name {
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.flavor-text {
+    margin-top: 17px !important;
+    font-family: 'Raleway Dots', cursive;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 767px) {
     .stylist-image {
         height: 250px;

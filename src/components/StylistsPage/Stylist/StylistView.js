@@ -8,7 +8,7 @@ import instaIcon from '../../../images/socials/insta_logo.png';
 
 const Stylist = ({ stylist, index }) => {
 
-    const stylistImage = require(`../../../images/${stylist.image}`);
+    const stylistImage = require(`../../../images/StylistsPage/${stylist.image}`);
 
     const isEvenStylist = index % 2 === 0;
     return (
@@ -16,7 +16,7 @@ const Stylist = ({ stylist, index }) => {
             <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: isEvenStylist ? 'first' : 'last' }}>
                 <Row>
                     <Col>
-                        <div className="person-name">{stylist.name}</div>
+                        <div className="person-name stylist-name">{stylist.name}</div>
                     </Col>
                     <Col xs="auto">
                         <div className="flexbox-row social-logo-container">
@@ -24,7 +24,7 @@ const Stylist = ({ stylist, index }) => {
                             {stylist.instagram && <img style={{ marginLeft: '17px' }} className="insta-logo" src={instaIcon} alt="instagram" onClick={() => window.open(stylist.instagram)} />}
                         </div>
                     </Col>
-                    <div style={{ marginTop: '17px' }}>
+                    <div className="flavor-text">
                         {stylist.flavorText.split('\n').map(text => <div>{text}</div>)}
                     </div>
                 </Row>

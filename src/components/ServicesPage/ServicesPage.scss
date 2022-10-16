@@ -1,13 +1,21 @@
+#services-header {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .service-category-title {
     font-size: 200%;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-.service-title {
+#serviceList {
+    font-family: 'Raleway Dots', cursive;
     font-weight: bold;
-}
 
-#serviceList div.service-line-item ~ div.service-line-item {
-    margin-top: 10px;
+    div.service-line-item~div.service-line-item {
+        margin-top: 10px;
+    }
 }
 
 .service-footer {

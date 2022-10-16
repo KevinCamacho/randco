@@ -3,13 +3,7 @@
         "image": "raquel.jpg",
         "name": "Raquel Araujo",
         "instagram": "https://www.instagram.com/raquelaraujohair/",
-        "flavorText": "Raquel is a color specialist who loves giving clients easy, low maintenance looks. With over 15 years of experience Raquel believes in constant education to further her craft. If she’s not at the salon she could be found playing life with her husband and 2 kids…. Or at target! She is immensely proud that she has created a team that encourages & supports one another and a space where we bring out beauty."
-    },
-    {
-        "image": "monique.jpg",
-        "name": "Monique D’errico",
-        "instagram": "https://www.instagram.com/rockstarhair_ny/",
-        "flavorText": "Monique has been expressing her own creativity through hair for more than 25 years now. She enjoys staying up to date in education with balayage and precision cuts. While educating for 15 years in color Monique participated in photo shoots and also worked for Fashion Week for Beauty Underground.\nAt the end of the day, Monique says she receives the most personal gratification from making her clients look and feel good! “I encourage them to change things up a bit, embrace change, explore, branch out!”"
+        "flavorText": "Raquel is a color specialist focusing on lived in color. She loves giving clients easy, modern, and low maintenance looks. With over 15 years of experience, Raquel believes in constant education to further her craft. If she’s not at the salon she could be found playing life with her husband and 2 kids…. Or at target! She is immensely proud that she has created a team that encourages & supports one another and a space where we bring out beauty."
     },
     {
         "image": "katie.jpg",
@@ -21,7 +15,7 @@
         "image": "alexis.jpg",
         "name": "Alexis Loor",
         "instagram": "https://www.instagram.com/alexis.evyenia/",
-        "flavorText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis urna eu nisl lobortis, sed auctor sem aliquam. Vestibulum rhoncus, libero at suscipit volutpat, erat tellus feugiat massa, vitae feugiat ligula nulla auctor enim. Aenean ac nisi lacus. Vestibulum at lacus non nunc interdum pretium. Curabitur purus lacus, mollis in neque ut, gravida molestie nisl. In eu mauris vehicula tellus ornare volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tempor ipsum. Aenean ullamcorper condimentum pellentesque. Integer elementum arcu id pretium euismod. Nullam non pharetra arcu."
+        "flavorText": "Alexis’ is undoubtedly one of R&Co’s most versatile stylists.  From a beautifully blended balayage, to men’s hair cutting, to vibrant fashion colors…. her range behind the chair just continues to grow.\nBefore joining the team at R&Co Salon, Alexis was a Dance Captain with Royal Caribbean International.  Following her time at sea, she spent roughly five years working in NYC, before eventually moving back to the Hudson Valley to raise her children.\nWith a passion for creativity, hospitality and mental health/self-care, the progression of her career made it feel as though she had finally found her calling as a stylist!  She absolutely loves connecting with her guests, and creating a space where they can feel at ease knowing that their hair is in good hands.\nAlexis describes herself as a “forever student”, and consistently prioritizes her education.  She loves staying up to date on the latest trends, products, techniques and tools within the industry.\nWhen she’s not doing hair, you can find her spending time with her 3 awesome kids, enjoying a cup of coffee, or hiking one of the many trails here in the Hudson Valley!\nFun Fact:  Alexis’ favorite holidays are Valentine’s Day and Halloween!!"
     },
     {
         "image": "aimee.jpg",
@@ -34,5 +28,11 @@
         "name": "Kendra Nop",
         "instagram": "https://www.instagram.com/dkhconop/",
         "flavorText": "Growing up Kendra Nop had always wanted to be a hairdresser. She has followed in the foot steps of her Aunt. Attending Sussex Technical School for cosmetology has given her the education and drive to be the hairdresser she is today. Having a dual license in NY & NJ for 22 years has given her the opportunity to meet and make clients be comfortable and feel great about themselves. She is a wife of 20 years and a mother of 5 children. Life is busy but she still enjoys attending education classes and workshops. She believes working with a great team of hairdressers at R & Co   a daily workshop!"
+    },
+    {
+        "image": "monique.jpg",
+        "name": "Monique D’errico",
+        "instagram": "https://www.instagram.com/rockstarhair_ny/",
+        "flavorText": "Monique has been expressing her own creativity through hair for more than 25 years now. She enjoys staying up to date in education with balayage and precision cuts. While educating for 15 years in color Monique participated in photo shoots and also worked for Fashion Week for Beauty Underground.\nAt the end of the day, Monique says she receives the most personal gratification from making her clients look and feel good! “I encourage them to change things up a bit, embrace change, explore, branch out!”"
     }
 ]
