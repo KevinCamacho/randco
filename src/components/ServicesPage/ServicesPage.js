@@ -20,7 +20,7 @@ const ServicesPage = () => {
             {data.map((serviceCategory, index) =>
                 <div key={serviceCategory.title}>
                     <div className="horizontal-divider"></div>
-                    <Row>
+                    <Row className="services-container">
                         <div>
                             <div className="service-category-title">{serviceCategory.title}</div>
                         </div>

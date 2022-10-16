@@ -1,7 +1,15 @@
+@import '../../index.scss';
+
 #services-header {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-weight: 500;
     font-size: 20px;
+}
+
+.services-container {
+    background: $color1;
+    color: $color4;
+    border-radius: 10px;
 }
 
 .service-category-title {

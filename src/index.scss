@@ -4,9 +4,9 @@ $color3: #848484;
 $color4: #bbbbbb;
 $color5: #ffffff;
 
-$body-bg: $color1;
-$primary: $color1;
-$secondary: $color2;
+$body-bg: $color5;
+$primary: $color5;
+$secondary: $color4;
 //$success: black;
 //$info: green;
 //$warning: purple;
@@ -29,7 +29,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $color4;
+  color: $color2;
 }
 
 .fancy-font {
