@@ -24,7 +24,7 @@ const ContactUsPage = () => {
                 <div>Call us:</div><a className="color-corrected-link" href="tel:8454573660" target="_blank" rel="noopener noreferrer">845-457-3660</a>
             </Row>
             <Row style={{ marginTop: '34px' }}>
-                <div>Email us</div><a className="color-corrected-link" href="mailto:raquel@raquelandcompany.com" target="_blank" rel="noopener noreferrer">raquel@raquelandcompany.com</a>
+                <div>Email us</div><a className="color-corrected-link" href="mailto:info@raquelandcompany.com" target="_blank" rel="noopener noreferrer">info@raquelandcompany.com</a>
             </Row>
             <Row style={{ marginTop: '34px' }}>
                 <a className="color-corrected-link" href='https://maps.google.com/?q=raquel+and+company+hair+salon+montgomery' target="_blank" rel="noopener noreferrer">9 Bridge St<br />Montgomery, NY 12549</a>
