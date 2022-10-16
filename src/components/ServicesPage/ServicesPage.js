@@ -9,7 +9,7 @@ const ServicesPage = () => {
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <Row>
-                <div>At Raquel {'&'} Company we strive to provide the best services at the best price. If you have any questions please reach out!</div>
+                <div id="services-header">At Raquel {'&'} Company we strive to provide the best services at the best price. If you have any questions please reach out!</div>
             </Row>
             <Row>
                 <div className="price-disclaimer">All prices are base amounts, depending on stylist, hair
@@ -28,7 +28,7 @@ const ServicesPage = () => {
                             {serviceCategory.items.map(service =>
                                 <Row key={service.serviceName} className="service-line-item">
                                     <Col className="service-title">{service.serviceName}</Col>
-                                    <Col>{service.price}</Col>
+                                    <Col className="service-price">{service.price}</Col>
                                 </Row>
                             )}
                         </div>
