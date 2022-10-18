@@ -9,15 +9,12 @@ const ServicesPage = () => {
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <Row>
-                <div id="services-header">At Raquel {'&'} Company we strive to provide the best services at the best price. If you have any questions please reach out!</div>
+                <div id="services-header">{data.header}</div>
             </Row>
             <Row>
-                <div className="price-disclaimer">All prices are base amounts, depending on stylist, hair
-                    length/thickness, and hair integrity. For a proper
-                    estimate, schedule a free consultation. Prices are
-                    subject to change at anytime.</div>
+                <div className="price-disclaimer">{data.priceDisclaimer}</div>
             </Row>
-            {data.map((serviceCategory, index) =>
+            {data.serviceList.map((serviceCategory, index) =>
                 <div key={serviceCategory.title}>
                     <div className="horizontal-divider"></div>
                     <Row className="services-container">

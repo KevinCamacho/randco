@@ -1,94 +1,98 @@
-[
-    {
-        "title": "women's services",
-        "sectionFooter": "Color services booked w/o haircut require a style/blowdry which is $15",
-        "items": [
-            {
-                "serviceName": "Haircut",
-                "price": 45
-            },
-            {
-                "serviceName": "Wash & Style",
-                "price": 30
-            },
-            {
-                "serviceName": "Retouch",
-                "price": 55
-            },
-            {
-                "serviceName": "Single Process",
-                "price": 85
-            },
-            {
-                "serviceName": "Face Frame Foil",
-                "price": 55
-            },
-            {
-                "serviceName": "Partial Foil",
-                "price": 115
-            },
-            {
-                "serviceName": "Full Head Foil",
-                "price": 160
-            },
-            {
-                "serviceName": "Face Frame Bayalage",
-                "price": 80
-            },
-            {
-                "serviceName": "Partial Bayalage",
-                "price": 150
-            },
-            {
-                "serviceName": "Full Bayalage",
-                "price": 175
-            },
-            {
-                "serviceName": "Toner",
-                "price": "40-55"
-            },
-            {
-                "serviceName": "Root melt",
-                "price": "40-60"
-            },
-            {
-                "serviceName": "Color Correction",
-                "price": "Price Upon Consultation. Hourly range $70-$85."
-            },
-            {
-                "serviceName": "Hair extensions",
-                "price": "Price Upon Consultation"
-            }
-        ]
-    },
-    {
-        "title": "hair treatments",
-        "items": [
-            {
-                "serviceName": "Protein",
-                "price": 30
-            },
-            {
-                "serviceName": "Moisture",
-                "price": 30
-            },
-            {
-                "serviceName": "Keratin",
-                "price": "200+"
-            }
-        ]
-    },
-    {
-        "title": "men's services",
-        "items": [
-            {
-                "serviceName": "Hair Cut",
-                "price": 30
-            },
-            {
-                "serviceName": "Glossing",
-                "price": 25
-            }
-        ]
-    }
-]
+{
+    "header": "At Raquel & Company we strive to provide the best services at the best price. If you have any questions please reach out!",
+    "priceDisclaimer": "All prices are base amounts, depending on stylist, hair length/thickness, and hair integrity. For a proper estimate, schedule a free consultation. Prices are subject to change at anytime.",
+    "serviceList": [
+        {
+            "title": "women's services",
+            "sectionFooter": "Color services booked w/o haircut require a style/blowdry which is $15",
+            "items": [
+                {
+                    "serviceName": "Haircut",
+                    "price": 45
+                },
+                {
+                    "serviceName": "Wash & Style",
+                    "price": 30
+                },
+                {
+                    "serviceName": "Retouch",
+                    "price": 55
+                },
+                {
+                    "serviceName": "Single Process",
+                    "price": 85
+                },
+                {
+                    "serviceName": "Face Frame Foil",
+                    "price": 55
+                },
+                {
+                    "serviceName": "Partial Foil",
+                    "price": 115
+                },
+                {
+                    "serviceName": "Full Head Foil",
+                    "price": 160
+                },
+                {
+                    "serviceName": "Face Frame Bayalage",
+                    "price": 80
+                },
+                {
+                    "serviceName": "Partial Bayalage",
+                    "price": 150
+                },
+                {
+                    "serviceName": "Full Bayalage",
+                    "price": 175
+                },
+                {
+                    "serviceName": "Toner",
+                    "price": "40-55"
+                },
+                {
+                    "serviceName": "Root melt",
+                    "price": "40-60"
+                },
+                {
+                    "serviceName": "Color Correction",
+                    "price": "Price Upon Consultation. Hourly range $70-$85."
+                },
+                {
+                    "serviceName": "Hair extensions",
+                    "price": "Price Upon Consultation"
+                }
+            ]
+        },
+        {
+            "title": "hair treatments",
+            "items": [
+                {
+                    "serviceName": "Protein",
+                    "price": 30
+                },
+                {
+                    "serviceName": "Moisture",
+                    "price": 30
+                },
+                {
+                    "serviceName": "Keratin",
+                    "price": "200+"
+                }
+            ]
+        },
+        {
+            "title": "men's services",
+            "items": [
+                {
+                    "serviceName": "Hair Cut",
+                    "price": 30
+                },
+                {
+                    "serviceName": "Glossing",
+                    "price": 25
+                }
+            ]
+        }
+    ]
+}
