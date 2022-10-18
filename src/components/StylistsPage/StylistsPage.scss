@@ -1,3 +1,5 @@
+@import '../../index.scss';
+
 #stylistsPage_mainImage {
     width: 70%;
     height: 250px;
@@ -6,7 +8,7 @@
 }
 
 #stylistsPage_meetOurTeam {
-    font-family: 'Alegreya Sans SC', sans-serif;
+    @extend .alegreya-font;
     font-size: 150%;
 }
 

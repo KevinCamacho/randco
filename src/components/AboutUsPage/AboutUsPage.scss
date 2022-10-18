@@ -1,5 +1,7 @@
+@import '../../index.scss';
+
 #aboutUsPage-container {
-    font-family: 'Alegreya Sans SC', sans-serif;
+    @extend .alegreya-font;
     font-weight: bold;
 }
 
@@ -8,7 +10,7 @@
 }
 
 #aboutUsPage-OwnerName {
-    font-family: 'Raleway Dots', cursive;
+    @extend .raleway-font;
 }
 
 #aboutUsPage_mainImage {

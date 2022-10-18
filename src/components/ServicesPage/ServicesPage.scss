@@ -1,7 +1,7 @@
 @import '../../index.scss';
 
 #services-header {
-    font-family: 'Alegreya Sans SC', sans-serif;
+    @extend .alegreya-font;
     font-weight: 500;
     font-size: 20px;
 }
@@ -14,11 +14,11 @@
 
 .service-category-title {
     font-size: 200%;
-    font-family: 'Alegreya Sans SC', sans-serif;
+    @extend .alegreya-font;
 }
 
 #serviceList {
-    font-family: 'Raleway Dots', cursive;
+    @extend .raleway-font;
     font-weight: bold;
 
     div.service-line-item~div.service-line-item {

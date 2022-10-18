@@ -5,7 +5,7 @@
 }
 
 #randco_navbarBrand {
-    font-family: 'Raleway Dots', cursive;
+    @extend .raleway-font;
     font-size: 130%;
     font-weight: bold;
 }
