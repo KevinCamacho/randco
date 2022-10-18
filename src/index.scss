@@ -50,11 +50,15 @@ code {
   padding-bottom: 17px;
 }
 
-.horizontal-divider {
-  background-color: $color3;
+.horizontal-divider-hidden {
   height: 2px;
   border-radius: 10px;
   margin: 17px 0px;
+}
+
+.horizontal-divider {
+  @extend .horizontal-divider-hidden;
+  background-color: $color3;
 }
 
 .flexbox-col {

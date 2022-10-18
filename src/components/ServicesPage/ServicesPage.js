@@ -16,22 +16,23 @@ const ServicesPage = () => {
             </Row>
             {data.serviceList.map((serviceCategory, index) =>
                 <div key={serviceCategory.title}>
-                    <div className="horizontal-divider"></div>
+                    <div className="horizontal-divider-hidden"></div>
+                    <div> </div>
                     <Row className="services-container">
                         <div>
                             <div className="service-category-title">{serviceCategory.title}</div>
-                        </div>
-                        <div id="serviceList">
-                            {serviceCategory.items.map(service =>
-                                <Row key={service.serviceName} className="service-line-item">
-                                    <Col className="service-title">{service.serviceName}</Col>
-                                    <Col className="service-price">{service.price}</Col>
-                                </Row>
+                            <div id="serviceList">
+                                {serviceCategory.items.map(service =>
+                                    <Row key={service.serviceName} className="service-line-item">
+                                        <Col className="service-title">{service.serviceName}</Col>
+                                        <Col className="service-price">{service.price}</Col>
+                                    </Row>
+                                )}
+                            </div>
+                            {serviceCategory.sectionFooter && (
+                                <div className="service-footer">***{serviceCategory.sectionFooter}***</div>
                             )}
                         </div>
-                        {serviceCategory.sectionFooter && (
-                            <div className="service-footer">***{serviceCategory.sectionFooter}***</div>
-                        )}
                     </Row>
                 </div>
             )}
