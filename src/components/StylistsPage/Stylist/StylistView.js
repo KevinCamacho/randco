@@ -29,7 +29,7 @@ const Stylist = ({ stylist, index }) => {
                     </div>
                 </Row>
             </Col>
-            <Col className="flexbox-col" xs={{ span: 12, order: 'first' }} md={{ span: 6, order: isEvenStylist ? 'last' : 'first' }}>
+            <Col xs={{ span: 12, order: 'first' }} md={{ span: 6, order: isEvenStylist ? 'last' : 'first' }}>
                 <LazyLoadImage className="stylist-image" src={stylistImage} alt={stylist.name} effect="blur" />
             </Col>
         </Row>
