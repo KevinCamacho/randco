@@ -22,3 +22,16 @@
         width: 100%;
     }
 }
+
+.stylist-name-and-bio {
+    @media screen and (max-width: 767px) {
+        border-left: 1px solid $color1;
+        border-right: 1px solid $color1;
+        border-radius: 15px;
+        margin: 0px 0px !important;
+
+        :first-child {
+            background: $color5;
+        }
+    }
+}
