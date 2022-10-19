@@ -17,11 +17,10 @@ const ServicesPage = () => {
             {data.serviceList.map((serviceCategory, index) =>
                 <div key={serviceCategory.title}>
                     <div className="horizontal-divider-hidden"></div>
-                    <div> </div>
                     <Row className="services-container">
                         <div>
                             <div className="service-category-title">{serviceCategory.title}</div>
-                            <div id="serviceList">
+                            <div className="service-list">
                                 {serviceCategory.items.map(service =>
                                     <Row key={service.serviceName} className="service-line-item">
                                         <Col className="service-title">{service.serviceName}</Col>
