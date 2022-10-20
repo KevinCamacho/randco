@@ -1,96 +1,70 @@
 {
-    "header": "At Raquel & Company we strive to provide the best services at the best price. If you have any questions please reach out!",
-    "priceDisclaimer": "All prices are base amounts, depending on stylist, hair length/thickness, and hair integrity. For a proper estimate, schedule a free consultation. Prices are subject to change at anytime.",
+    "footer": "All the services we provide at R&Co are customized for each and every quest. Each head of hair is unique as is each face shape and skin tone. We pride ourselves on being masters of finding the perfect cut and color for each guest.",
+    "priceDisclaimer": "Price can increase depending on client hair and density as well as product usage Price can be subjected to change at any time.*",
     "serviceList": [
         {
-            "title": "women's services",
-            "sectionFooter": "Color services booked w/o haircut require a style/blowdry which is $15",
+            "title": "Women",
             "items": [
                 {
-                    "serviceName": "Haircut",
-                    "price": 45
+                    "name": "Cut",
+                    "price": "60/65"
                 },
                 {
-                    "serviceName": "Wash & Style",
-                    "price": 30
+                    "name": "Luxe Cut",
+                    "price": "90/95"
                 },
                 {
-                    "serviceName": "Retouch",
-                    "price": 55
+                    "name": "Shampoo Style",
+                    "price": "40"
                 },
                 {
-                    "serviceName": "Single Process",
-                    "price": 85
+                    "name": "Retouch",
+                    "price": "65/70"
                 },
                 {
-                    "serviceName": "Face Frame Foil",
-                    "price": 55
+                    "name": "Single Process",
+                    "price": "110/125"
                 },
                 {
-                    "serviceName": "Partial Foil",
-                    "price": 115
+                    "name": "Total Overhaul",
+                    "price": "160-200"
                 },
                 {
-                    "serviceName": "Full Head Foil",
-                    "price": 160
+                    "name": "Partial Revamp",
+                    "price": "115-170"
                 },
                 {
-                    "serviceName": "Face Frame Bayalage",
-                    "price": 80
+                    "name": "Refresh",
+                    "price": "60-85"
                 },
                 {
-                    "serviceName": "Partial Bayalage",
-                    "price": 150
+                    "name": "Toner",
+                    "price": "45-65"
                 },
                 {
-                    "serviceName": "Full Bayalage",
-                    "price": 175
+                    "name": "Root Shadow/Root Melt",
+                    "price": "25-85"
                 },
                 {
-                    "serviceName": "Toner",
-                    "price": "40-55"
+                    "name": "Wash & Blow",
+                    "price": "40"
                 },
                 {
-                    "serviceName": "Root melt",
-                    "price": "40-60"
-                },
-                {
-                    "serviceName": "Color Correction",
-                    "price": "Price Upon Consultation. Hourly range $70-$85."
-                },
-                {
-                    "serviceName": "Hair extensions",
-                    "price": "Price Upon Consultation"
+                    "name": "Revive Treatment",
+                    "price": "30-45"
                 }
             ]
         },
         {
-            "title": "hair treatments",
+            "title": "Men",
             "items": [
                 {
-                    "serviceName": "Protein",
-                    "price": 30
+                    "name": "Cut",
+                    "price": "35"
                 },
                 {
-                    "serviceName": "Moisture",
-                    "price": 30
-                },
-                {
-                    "serviceName": "Keratin",
-                    "price": "200+"
-                }
-            ]
-        },
-        {
-            "title": "men's services",
-            "items": [
-                {
-                    "serviceName": "Hair Cut",
-                    "price": 30
-                },
-                {
-                    "serviceName": "Glossing",
-                    "price": 25
+                    "name": "Gray Blending",
+                    "price": "35"
                 }
             ]
         }

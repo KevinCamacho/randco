@@ -36,6 +36,7 @@ body {
   font-family: 'Raleway Dots', cursive;
   -webkit-text-stroke: 0.5px;
   -webkit-text-stroke-color: same color as text;
+  font-weight: bold;
 }
 
 .alegreya-font {
@@ -61,6 +62,12 @@ code {
 .horizontal-divider {
   @extend .horizontal-divider-hidden;
   background-color: $color3;
+}
+
+.vertical-divider {
+  width: 2px;
+  background-color: $color2;
+  height: 100%
 }
 
 .flexbox-col {
