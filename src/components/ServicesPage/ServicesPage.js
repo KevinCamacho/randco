@@ -4,8 +4,11 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import './ServicesPage.scss';
 import data from '../../data/services.json';
+import { useMediaQuery } from 'react-responsive';
 
 const ServicesPage = () => {
+    const isMobile = useMediaQuery({ maxWidth: 767 });
+
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             {/* <Row className="align-items-center" style={{ textAlign: 'right' }}>
@@ -67,10 +70,12 @@ const ServicesPage = () => {
                         </div>
                     )}
                 </div>
-                <div style={{ flex: '0 0 content' }}>
-                    <div className="side-text">{"P R I C E"}</div>
-                    <div style={{ marginTop: '34px' }} className="side-text">{"L I S T"}</div>
-                </div>
+                {!isMobile && (
+                    <div>
+                        <div className="side-text">{"P R I C E"}</div>
+                        <div style={{ marginTop: '34px' }} className="side-text">{"L I S T"}</div>
+                    </div>
+                )}
             </div>
 
 
