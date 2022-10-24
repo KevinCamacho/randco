@@ -23,14 +23,15 @@
 }
 
 .stylist-name-and-bio {
-    @media screen and (max-width: 767px) {
-        border-left: 1px solid $color1;
-        border-right: 1px solid $color1;
-        border-radius: 15px;
-        margin: 0px 0px !important;
+    border-left: 1px solid $color1;
+    border-right: 1px solid $color1;
+    border-radius: 15px;
 
-        :first-child {
-            background: $color5;
-        }
+    :first-child {
+        background: $color5;
+    }
+
+    @media screen and (max-width: 767px) {
+        margin: 0px 0px !important;
     }
 }
