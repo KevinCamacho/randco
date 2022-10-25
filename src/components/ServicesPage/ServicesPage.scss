@@ -12,7 +12,7 @@
 }
 
 .service-list-empty-row {
-    height: 20px;
+    height: 24px;
     justify-content: center;
 }
 
@@ -22,10 +22,14 @@
 
 .service-name {
     text-align: right;
+    vertical-align: middle;
+    padding-right: 16px !important;
 }
 
 .service-price {
     text-align: left;
+    vertical-align: middle;
+    padding-left: 16px !important;
 }
 
 .service-page-footer {
@@ -35,4 +39,10 @@
 .service-page-price-disclaimer {
     @extend .raleway-font;
     font-size: 80%;
+}
+
+.vertical-divider {
+    width: 2px;
+    background-color: $color2  !important;
+    padding: 0px !important;
 }
