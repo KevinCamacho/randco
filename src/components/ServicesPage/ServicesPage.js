@@ -16,31 +16,36 @@ const ServicesPage = () => {
             <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'nowrap', alignItems: 'center', justifyContent: 'center' }}>
 
 
-                <Table size="sm" borderless>
-                    <tbody>
-                        {data.serviceList.map((serviceCategory, index) =>
-                            <>
-                                {index > 0 && (
+                <div>
+
+                    <Table size="sm" borderless>
+                        <tbody>
+                            {data.serviceList.map((serviceCategory, index) =>
+                                <>
+                                    {index > 0 && (
+                                        <tr>
+                                            <td></td>
+                                            <td className="vertical-divider"></td>
+                                        </tr>
+                                    )}
                                     <tr>
-                                        <td></td>
+                                        <td className="service-category-title service-name">{serviceCategory.title}</td>
                                         <td className="vertical-divider"></td>
                                     </tr>
-                                )}
-                                <tr>
-                                    <td className="service-category-title service-name">{serviceCategory.title}</td>
-                                    <td className="vertical-divider"></td>
-                                </tr>
-                                {serviceCategory.items.map((service, index2) =>
-                                    <tr className="service-list">
-                                        <td className="service-name">{service.name}</td>
-                                        <td className="vertical-divider"></td>
-                                        <td className="service-price">${service.price}</td>
-                                    </tr>
-                                )}
-                            </>
-                        )}
-                    </tbody>
-                </Table>
+                                    {serviceCategory.items.map((service, index2) =>
+                                        <tr className="service-list">
+                                            <td className="service-name">{service.name}</td>
+                                            <td className="vertical-divider"></td>
+                                            <td className="service-price">${service.price}</td>
+                                        </tr>
+                                    )}
+                                </>
+                            )}
+                        </tbody>
+                    </Table>
+                </div>
+
+
 
 
                 <div style={{ width: '100px' }}>
