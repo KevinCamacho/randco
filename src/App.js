@@ -10,6 +10,8 @@ import AboutUsPage from './components/AboutUsPage/AboutUsPage';
 import StylistsPage from './components/StylistsPage/StylistsPage';
 import ContactUsPage from './components/ContactUsPage/ContactUsPage';
 import ProductsPage from './components/ProductsPage/ProductsPage';
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
 
 const App = () => {
     const navigate = useNavigate();
@@ -20,15 +22,18 @@ const App = () => {
                 <Container fluid>
                     <Navbar.Brand id="randco_navbarBrand" className="cursor-pointer" onClick={() => navigate('/')}>Raquel & Company</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbar" />
-                    <Navbar.Collapse id="navbar">
-                        <Nav className="justify-content-end" style={{ width: "100%" }} onSelect={selectedPath => navigate(selectedPath)}>
-                            <Nav.Link eventKey="/about-us">About Us</Nav.Link>
-                            <Nav.Link eventKey="/services">Services</Nav.Link>
-                            <Nav.Link eventKey="/meet-the-stylists">Stylists</Nav.Link>
-                            <Nav.Link eventKey="/products">Products</Nav.Link>
-                            <Nav.Link eventKey="/contact-us">Contact Us</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
+                    <Navbar.Offcanvas id="navbar" placement="end">
+                        <Offcanvas.Header closeButton />
+                        <Offcanvas.Body variant="dark" bg="dark">
+                            <Nav className="justify-content-end" style={{ width: "100%" }} onSelect={selectedPath => navigate(selectedPath)}>
+                                <Nav.Link eventKey="/about-us">About Us</Nav.Link>
+                                <Nav.Link eventKey="/services">Services</Nav.Link>
+                                <Nav.Link eventKey="/meet-the-stylists">Stylists</Nav.Link>
+                                <Nav.Link eventKey="/products">Products</Nav.Link>
+                                <Nav.Link eventKey="/contact-us">Contact Us</Nav.Link>
+                            </Nav>
+                        </Offcanvas.Body>
+                    </Navbar.Offcanvas>
                 </Container>
             </Navbar>
             <Routes>
