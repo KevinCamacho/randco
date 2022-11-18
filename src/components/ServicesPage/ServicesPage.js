@@ -1,14 +1,12 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Table from 'react-bootstrap/Table';
 import './ServicesPage.scss';
 import data from '../../data/services.json';
-import { useMediaQuery } from 'react-responsive';
+
 
 const ServicesPage = () => {
-    const isMobile = useMediaQuery({ maxWidth: 767 });
 
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>

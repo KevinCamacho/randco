@@ -5,11 +5,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import { useNavigate } from 'react-router-dom';
 import carouselData from '../data/carousel.json';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { useMediaQuery } from 'react-responsive';
 
-const HomePage = () => {
+const HomePage = ({ isMobile }) => {
     const navigate = useNavigate();
-    const isMobile = useMediaQuery({ maxWidth: 767 });
 
     const handleCarouselImageClick = carouselItem => {
         if (carouselItem.navigate) {

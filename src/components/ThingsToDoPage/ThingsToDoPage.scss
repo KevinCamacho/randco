@@ -1,0 +1,23 @@
+@import '../../index.scss';
+
+.title-heading {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.divider {
+    width: 60%;
+    margin: 5px auto;
+}
+
+.headline {
+    font-size: 200%;
+}
+
+.thing-to-do {
+    margin-top: 17px;
+
+    .title {
+        font-size: 130%;
+    }
+}

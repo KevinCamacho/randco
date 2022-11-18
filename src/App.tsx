@@ -11,9 +11,12 @@ import StylistsPage from './components/StylistsPage/StylistsPage';
 import ContactUsPage from './components/ContactUsPage/ContactUsPage';
 import ProductsPage from './components/ProductsPage/ProductsPage';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import ThingsToDoPage from './components/ThingsToDoPage/ThingsToDoPage';
+import { useMediaQuery } from 'react-responsive';
 
 
 const App = () => {
+    const isMobile = useMediaQuery({ maxWidth: 767 });
     const navigate = useNavigate();
 
     return (
@@ -24,11 +27,12 @@ const App = () => {
                     <Navbar.Toggle aria-controls="navbar" />
                     <Navbar.Offcanvas id="navbar" placement="end">
                         <Offcanvas.Header closeButton />
-                        <Offcanvas.Body variant="dark" bg="dark">
-                            <Nav className="justify-content-end" style={{ width: "100%" }} onSelect={selectedPath => navigate(selectedPath)}>
+                        <Offcanvas.Body>
+                            <Nav className="justify-content-end" style={{ width: "100%" }} onSelect={selectedPath => navigate(selectedPath!)}>
                                 <Nav.Link eventKey="/about-us">About Us</Nav.Link>
                                 <Nav.Link eventKey="/services">Services</Nav.Link>
                                 <Nav.Link eventKey="/meet-the-stylists">Stylists</Nav.Link>
+                                <Nav.Link eventKey="/things-to-do">Things To Do</Nav.Link>
                                 <Nav.Link eventKey="/products">Products</Nav.Link>
                                 <Nav.Link eventKey="/contact-us">Contact Us</Nav.Link>
                             </Nav>
@@ -37,12 +41,13 @@ const App = () => {
                 </Container>
             </Navbar>
             <Routes>
-                <Route exact path='/' element={<HomePage />} />
-                <Route exact path='/services' element={<ServicesPage />} />
-                <Route exact path='/about-us' element={<AboutUsPage />} />
-                <Route exact path='/meet-the-stylists' element={<StylistsPage />} />
-                <Route exact path='/products' element={<ProductsPage />} />
-                <Route exact path='/contact-us' element={<ContactUsPage />} />
+                <Route path='/' element={<HomePage isMobile={isMobile} />} />
+                <Route path='/services' element={<ServicesPage />} />
+                <Route path='/about-us' element={<AboutUsPage />} />
+                <Route path='/meet-the-stylists' element={<StylistsPage />} />
+                <Route path='/things-to-do' element={<ThingsToDoPage isMobile={isMobile} />} />
+                <Route path='/products' element={<ProductsPage />} />
+                <Route path='/contact-us' element={<ContactUsPage />} />
             </Routes>
         </div>
     )
