@@ -1,8 +1,19 @@
 @import '../../index.scss';
 
+#thingsToDoPage-container {
+    @extend .raleway-font;
+}
+
 .title-heading {
-    font-size: 200%;
+    @extend .alegreya-font;
+    font-size: 300%;
     font-weight: bold;
+}
+
+.sub-heading {
+    @extend .parisienne-font;
+    font-size: 150%;
+    font-weight: lighter;
 }
 
 .divider {
@@ -11,7 +22,9 @@
 }
 
 .headline {
+    @extend .alegreya-font;
     font-size: 200%;
+    font-weight: lighter;
 }
 
 .thing-to-do {

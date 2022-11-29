@@ -29,13 +29,14 @@ const ThingsToDoPage: FC<({ isMobile: boolean })> = (props) => {
             </div>
         )
     }
+
     return (
         <Container id="thingsToDoPage-container" fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <Row>
                 <div>9 Bridge St, Montgomery, NY 12549</div>
                 <div className="horizontal-divider divider"></div>
                 <div className="title-heading">THINGS</div>
-                <div style={{ marginTop: '-10px' }}>to do. see. & eat.</div>
+                <div className="sub-heading" style={{ marginTop: '-10px' }}>to do. see. & eat.</div>
             </Row>
             <Row>
                 <Col xs={12} md={6} style={!props.isMobile ? { textAlign: 'left' } : {}}>

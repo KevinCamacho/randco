@@ -21,6 +21,7 @@ $secondary: $color4;
 // used on about us page
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100;500;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 
 body {
   margin: 0;
@@ -41,6 +42,10 @@ body {
 
 .alegreya-font {
   font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.parisienne-font {
+  font-family: 'Parisienne', cursive;
 }
 
 code {
@@ -129,6 +134,6 @@ a.nav-link:focus {
   color: $color2;
 
   &:hover {
-    color: $color4  !important;
+    color: $color4 !important;
   }
 }
