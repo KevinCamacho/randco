@@ -120,7 +120,8 @@ export const thingsToDo: IThingsToDo[] = [
             },
             {
                 name: "Montgomery Mercantile",
-                address: "coming soon"
+                address: "18 Bridge St,\nMontgomery NY",
+                googleSearch: 'https://maps.google.com/?q=montgomery+mercantile+ny'
             }
         ]
     }
