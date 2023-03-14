@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { FC } from 'react';
 import './StylistsPage.scss';
 import heroImage from '../../images/StylistsPage/RCO-93-edited.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import stylists from '../../data/stylists.json';
 import StylistView from './Stylist/StylistView';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { stylists } from '../../data';
 
-const StylistsPage = () => {
+const StylistsPage: FC = () => {
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <LazyLoadImage id="stylistsPage_mainImage" src={heroImage} effect="blur" />

@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { FC } from 'react';
 import './StylistView.scss';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import facebookIcon from '../../../images/socials/fb_logo.png';
 import instaIcon from '../../../images/socials/insta_logo.png';
+import { IStylist } from '../../../data';
 
-const Stylist = ({ stylist, index }) => {
+const Stylist: FC<{ stylist: IStylist, index: number }> = ({ stylist, index }) => {
 
     const stylistImage = require(`../../../images/StylistsPage/${stylist.image}`);
 

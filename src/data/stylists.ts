@@ -1,4 +1,12 @@
-[
+export interface IStylist {
+    image: string;
+    name: string;
+    instagram?: string;
+    facebook?: string;
+    flavorText: string;
+}
+
+export const stylists: IStylist[] = [
     {
         "image": "raquel.jpg",
         "name": "Raquel Araujo",
@@ -21,7 +29,7 @@
         "image": "aimee.jpg",
         "name": "Aimee Byrnes",
         "instagram": "https://www.instagram.com/hairbyaimeelyn/",
-        "flavorText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis urna eu nisl lobortis, sed auctor sem aliquam. Vestibulum rhoncus, libero at suscipit volutpat, erat tellus feugiat massa, vitae feugiat ligula nulla auctor enim. Aenean ac nisi lacus. Vestibulum at lacus non nunc interdum pretium. Curabitur purus lacus, mollis in neque ut, gravida molestie nisl. In eu mauris vehicula tellus ornare volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a tempor ipsum. Aenean ullamcorper condimentum pellentesque. Integer elementum arcu id pretium euismod. Nullam non pharetra arcu."
+        "flavorText": "Aimee specializes in lived-in color and blonding. From a young age, she has always had an interest in the beauty industry. She believes that you never stop learning or growing. As well as, enjoying learning the ins & outs about social media and how it can build a wide clientele and a big following. You’ll never doubt that she isn’t keeping up on the current trends or learning about something new & beneficial to her clientele. Aimee is all about self care, so when she isn’t in the salon, she is spending time relaxing and doing something positive towards her mental health."
     },
     {
         "image": "kendra.jpg",
@@ -35,4 +43,4 @@
         "instagram": "https://www.instagram.com/rockstarhair_ny/",
         "flavorText": "Monique has been expressing her own creativity through hair for more than 25 years now. She enjoys staying up to date in education with balayage and precision cuts. While educating for 15 years in color Monique participated in photo shoots and also worked for Fashion Week for Beauty Underground.\nAt the end of the day, Monique says she receives the most personal gratification from making her clients look and feel good! “I encourage them to change things up a bit, embrace change, explore, branch out!”"
     }
-]
+];
