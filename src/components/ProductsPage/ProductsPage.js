@@ -8,7 +8,7 @@ import Col from 'react-bootstrap/Col';
 import ProductView from './Product/ProductView';
 
 const ProductsPage = () => {
-    const mainImage = require(`../../images/${productsData.heroImage}`);
+    const mainImage = require(`../../images/ProductsPage/${productsData.heroImage}`);
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <LazyLoadImage id="productsPage_mainImage" src={mainImage} effect="blur" />

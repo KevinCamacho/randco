@@ -7,7 +7,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 const ProductView = ({ product, index }) => {
     const isEvenProduct = index % 2 === 0;
 
-    const productImage = require(`../../../images/${product.productImage}`)
+    const productImage = require(`../../../images/ProductsPage/${product.productImage}`)
     return (
         <Row className="product-view">
             <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: isEvenProduct ? 'first' : 'last' }}>
