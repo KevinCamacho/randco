@@ -1,4 +1,3 @@
-import { stylists, IStylist } from './stylists';
 export { thingsToDo } from './thingsToDo';
 export type { IBusiness, IThingsToDo } from './thingsToDo';
 
