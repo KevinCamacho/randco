@@ -13,7 +13,8 @@ const ProductView = ({ product, index }) => {
             <Col xs={{ span: 12, order: 'last' }} md={{ span: 6, order: isEvenProduct ? 'first' : 'last' }}>
                 <Row>
                     <Col>
-                        <div className="product-name"><a className="color-corrected-link" href={product.productLink} target="_blank" rel="noopener noreferrer" >{product.productName}</a></div>
+                        <div className="product-name">{product.productName}</div>
+                        <div><a className="color-corrected-link" href={product.productLink} target="_blank" rel="noopener noreferrer" >{'Purchase Here'}</a></div>
                     </Col>
                     <div style={{ marginTop: '17px' }}>
                         {product.productDescription.split('\n').map(text => <div>{text}</div>)}
