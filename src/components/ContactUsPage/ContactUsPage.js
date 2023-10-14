@@ -8,7 +8,7 @@ import instaIcon from '../../images/socials/insta_logo.png';
 
 const ContactUsPage = () => {
     return (
-        <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
+        <Container id="contactUsPage-container" fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <Row style={{ marginTop: '17px' }}>
                 <div style={{ fontSize: '150%' }}>Get in touch with Raquel & Company</div>
                 <Col>

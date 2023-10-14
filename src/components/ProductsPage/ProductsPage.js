@@ -10,7 +10,7 @@ import ProductView from './Product/ProductView';
 const ProductsPage = () => {
     const mainImage = require(`../../images/ProductsPage/${productsData.heroImage}`);
     return (
-        <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
+        <Container id="productsPage-container" fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <LazyLoadImage id="productsPage_mainImage" src={mainImage} effect="blur" />
             <Row style={{ marginTop: '17px' }}>
                 <div>{productsData.heroText}</div>

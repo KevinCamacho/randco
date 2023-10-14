@@ -7,12 +7,13 @@
 }
 
 .stylist-name {
-    @extend .alegreya-font;
+    @extend .oswald-font;
+    font-weight: normal !important;
 }
 
 .flavor-text {
     margin-top: 17px !important;
-    @extend .raleway-font;
+    @extend .oswald-font;
 }
 
 @media screen and (max-width: 767px) {

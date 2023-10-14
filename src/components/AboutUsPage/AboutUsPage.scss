@@ -1,8 +1,8 @@
 @import '../../index.scss';
 
 #aboutUsPage-container {
-    @extend .alegreya-font;
-    font-weight: bold;
+    @extend .oswald-font;
+    font-weight: 400;
 }
 
 #aboutUsPage-AboutUsText {
@@ -10,7 +10,7 @@
 }
 
 #aboutUsPage-OwnerName {
-    @extend .raleway-font;
+    font-weight: 500;
 }
 
 #aboutUsPage_mainImage {

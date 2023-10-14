@@ -1,3 +1,9 @@
+@import '../../index.scss';
+
+#productsPage-container {
+    @extend .oswald-font;
+}
+
 #productsPage_mainImage {
     height: 250px;
     width: 70%;

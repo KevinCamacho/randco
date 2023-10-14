@@ -13,6 +13,8 @@ import ProductsPage from './components/ProductsPage/ProductsPage';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import ThingsToDoPage from './components/ThingsToDoPage/ThingsToDoPage';
 import { useMediaQuery } from 'react-responsive';
+import logoLight from './images/logoLight192.png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const App = () => {
@@ -23,7 +25,7 @@ const App = () => {
         <div id="mainContainer">
             <Navbar expand="md" bg="dark" variant="dark" sticky="top" collapseOnSelect>
                 <Container fluid>
-                    <Navbar.Brand id="randco_navbarBrand" className="cursor-pointer" onClick={() => navigate('/')}>Raquel & Company</Navbar.Brand>
+                    <Navbar.Brand id="randco_navbarBrand" className="cursor-pointer" onClick={() => navigate('/')}><LazyLoadImage id="mainLogo" src={logoLight} effect="blur" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbar" />
                     <Navbar.Offcanvas id="navbar" placement="end">
                         <Offcanvas.Header closeButton />
