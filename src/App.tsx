@@ -15,6 +15,7 @@ import ThingsToDoPage from './components/ThingsToDoPage/ThingsToDoPage';
 import { useMediaQuery } from 'react-responsive';
 import logoLight from './images/logoLight192.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import TestimonialsPage from './components/TestimonialsPage/TestimonialsPage';
 
 
 const App = () => {
@@ -34,6 +35,7 @@ const App = () => {
                                 <Nav.Link eventKey="/about-us">About Us</Nav.Link>
                                 <Nav.Link eventKey="/services">Services</Nav.Link>
                                 <Nav.Link eventKey="/meet-the-stylists">Stylists</Nav.Link>
+                                <Nav.Link eventKey="/testimonials">Client Thoughts</Nav.Link>
                                 <Nav.Link eventKey="/things-to-do">Things To Do</Nav.Link>
                                 <Nav.Link eventKey="/products">Products</Nav.Link>
                                 <Nav.Link eventKey="/contact-us">Contact Us</Nav.Link>
@@ -47,6 +49,7 @@ const App = () => {
                 <Route path='/services' element={<ServicesPage />} />
                 <Route path='/about-us' element={<AboutUsPage />} />
                 <Route path='/meet-the-stylists' element={<StylistsPage />} />
+                <Route path='/testimonials' element={<TestimonialsPage />} />
                 <Route path='/things-to-do' element={<ThingsToDoPage isMobile={isMobile} />} />
                 <Route path='/products' element={<ProductsPage />} />
                 <Route path='/contact-us' element={<ContactUsPage />} />

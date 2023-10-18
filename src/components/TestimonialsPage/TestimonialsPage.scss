@@ -1,0 +1,24 @@
+@import '../../index.scss';
+
+#testimonialsPage-container {
+    @extend .oswald-font;
+}
+
+#clientThoughts-Header {
+    font-size: 200%;
+}
+
+#testimonialsContainer .testimonial~.testimonial {
+    margin-top: 68px;
+}
+
+.parentheses {
+    @extend .parisienne-font;
+    font-size: 128px;
+    height: 100px;
+}
+
+.quote-container {
+    margin: auto;
+    padding: 0px 16px;
+}
