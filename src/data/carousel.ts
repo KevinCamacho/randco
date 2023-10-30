@@ -1,4 +1,13 @@
-[
+export interface ICarousel {
+    desktopImage: string;
+    mobileImage: string;
+    text: string;
+    altText: string;
+    navigate?: string;
+    redirect?: string;
+}
+
+export const carouselData: ICarousel[] = [
     {
         "desktopImage": "RCO-10.jpg",
         "mobileImage": "RCO-9-edited.jpg",
@@ -13,4 +22,4 @@
         "altText": "Products",
         "navigate": "/products"
     }
-]
+];

@@ -1,4 +1,3 @@
-import { testimonials, ITestimonial } from './testimonials';
 export { thingsToDo } from './thingsToDo';
 export type { IBusiness, IThingsToDo } from './thingsToDo';
 
@@ -7,3 +6,6 @@ export type { IStylist } from './stylists';
 
 export { testimonials } from './testimonials';
 export type { ITestimonial } from './testimonials';
+
+export { carouselData } from './carousel';
+export type { ICarousel } from './carousel';

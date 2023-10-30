@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { FC } from 'react';
 import './HomePage.scss';
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
 import { useNavigate } from 'react-router-dom';
-import carouselData from '../data/carousel.json';
+import { ICarousel, carouselData } from '../data';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-const HomePage = ({ isMobile }) => {
+const HomePage: FC<{ isMobile: boolean }> = ({ isMobile }) => {
     const navigate = useNavigate();
 
-    const handleCarouselImageClick = carouselItem => {
+    const handleCarouselImageClick = (carouselItem: ICarousel) => {
         if (carouselItem.navigate) {
             navigate(carouselItem.navigate);
         } else if (carouselItem.redirect) {
