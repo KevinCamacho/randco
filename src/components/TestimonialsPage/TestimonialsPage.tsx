@@ -18,14 +18,15 @@ const TestimonialsPage: FC = () => {
             </Row>
             <div id="testimonialsContainer">
                 {testimonials.map((testimonial: ITestimonial) =>
-                    <Row className="testimonial">
-                        <div className="flexbox-row">
-                            <div className="flexbox-col"><div className="parentheses">"</div></div>
-                            <div className="quote-container">{testimonial.testimonial}</div>
-                            <div className="parentheses">"</div>
-                        </div>
-                        <div>{'- '}{testimonial.credit}</div>
-                    </Row>
+                    <div className="testimonial">
+                        <div className="parentheses">"</div>
+                        <Row>
+                            <div className="flexbox-row">
+                                <div className="quote-container">{testimonial.testimonial}</div>
+                            </div>
+                            <div>{'- '}{testimonial.credit}</div>
+                        </Row>
+                    </div>
                 )}
             </div>
         </Container>
