@@ -4,8 +4,12 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { ITestimonial, testimonials } from '../../data';
 import './TestimonialsPage.scss';
+import { shuffleArray } from '../../util/shuffle';
 
 const TestimonialsPage: FC = () => {
+    const testominalShuffled = JSON.parse(JSON.stringify(testimonials));
+    shuffleArray(testominalShuffled);
+
     return (
         <Container id="testimonialsPage-container" fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <Row style={{ marginTop: '17px' }}>
@@ -17,7 +21,7 @@ const TestimonialsPage: FC = () => {
                 </Col>
             </Row>
             <div id="testimonialsContainer">
-                {testimonials.map((testimonial: ITestimonial) =>
+                {testominalShuffled.map((testimonial: ITestimonial) =>
                     <div className="testimonial">
                         <div className="parentheses">"</div>
                         <Row>
