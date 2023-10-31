@@ -35,5 +35,9 @@ export const testimonials: ITestimonial[] = [
     {
         testimonial: "Alexis is so kind and very professional! She listened to my concerns about my hair and gave me a beautiful cut that works with my hair's texture. She's a true artist and I'm so appreciative for her expertise!",
         credit: "Nicole B"
+    },
+    {
+        testimonial: "Would just like to mention that Kendra has been doing my hair for many years and and I have always been more than pleased.  She listens, she cares and takes great pride in her work -- as well she should!!  I receive many compliments on my hair and that's because of her ability to cut and style it beautifully!!",
+        credit: "Arline C"
     }
 ];
