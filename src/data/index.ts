@@ -9,3 +9,5 @@ export type { ITestimonial } from './testimonials';
 
 export { carouselData } from './carousel';
 export type { ICarousel } from './carousel';
+
+export { instagram } from './instagram';
