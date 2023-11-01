@@ -29,10 +29,6 @@ export const testimonials: ITestimonial[] = [
         credit: "Ashley M"
     },
     {
-        testimonial: "Katie made me feel comfortable and relaxed. I've gotten my hair cut by her twice now and will continue to come back! She's a great listener and is always ready to give me the look I want to feel the most confident! I recommend anyone go to her. Very satisfied!",
-        credit: "Tiffany M"
-    },
-    {
         testimonial: "Alexis is so kind and very professional! She listened to my concerns about my hair and gave me a beautiful cut that works with my hair's texture. She's a true artist and I'm so appreciative for her expertise!",
         credit: "Nicole B"
     },

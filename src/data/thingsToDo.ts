@@ -99,11 +99,6 @@ export const thingsToDo: IThingsToDo[] = [
         headline: "Shop",
         businessList: [
             {
-                name: "Astoria Hudson",
-                address: "84 Clinton St,\nMontgomery NY",
-                googleSearch: 'https://maps.google.com/?q=astoria+hudson+montgomery'
-            },
-            {
                 name: "Inglenook Marketplace",
                 address: "32 Union St,\nMontgomery NY",
                 googleSearch: 'https://maps.google.com/?q=inglenook+marketplace+montgomery'
