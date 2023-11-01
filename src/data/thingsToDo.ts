@@ -24,11 +24,6 @@ export const thingsToDo: IThingsToDo[] = [
                 googleSearch: 'https://maps.google.com/?q=cooperfields+pub+montgomery'
             },
             {
-                name: "Lady",
-                address: "91 Clinton St,\nMontgomery NY",
-                googleSearch: 'https://maps.google.com/?q=lady+montgomery'
-            },
-            {
                 name: "Ward's Bridge Inn",
                 address: "135 Ward St,\nMontgomery NY",
                 googleSearch: 'https://maps.google.com/?q=wards+bridge+inn+montgomery'
