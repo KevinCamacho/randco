@@ -36,11 +36,5 @@ export const stylists: IStylist[] = [
         "name": "Kendra Nop",
         "instagram": "https://www.instagram.com/dkhconop/",
         "flavorText": "Growing up Kendra Nop had always wanted to be a hairdresser. She has followed in the foot steps of her Aunt. Attending Sussex Technical School for cosmetology has given her the education and drive to be the hairdresser she is today. Having a dual license in NY & NJ for 22 years has given her the opportunity to meet and make clients be comfortable and feel great about themselves. She is a wife of 20 years and a mother of 5 children. Life is busy but she still enjoys attending education classes and workshops. She believes working with a great team of hairdressers at R & Co   a daily workshop!"
-    },
-    {
-        "image": "monique.jpg",
-        "name": "Monique D’errico",
-        "instagram": "https://www.instagram.com/rockstarhair_ny/",
-        "flavorText": "Monique has been expressing her own creativity through hair for more than 25 years now. She enjoys staying up to date in education with balayage and precision cuts. While educating for 15 years in color Monique participated in photo shoots and also worked for Fashion Week for Beauty Underground.\nAt the end of the day, Monique says she receives the most personal gratification from making her clients look and feel good! “I encourage them to change things up a bit, embrace change, explore, branch out!”"
     }
 ];
