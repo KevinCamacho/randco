@@ -1,57 +1,59 @@
 {
-    "footer": "All the services we provide at R&Co are customized for each and every quest. Each head of hair is unique as is each face shape and skin tone. We pride ourselves on being masters of finding the perfect cut and color for each guest.",
-    "priceDisclaimer": "Price can increase depending on client hair and density as well as product usage Price can be subjected to change at any time.*",
     "serviceList": [
         {
             "title": "Women",
             "items": [
                 {
                     "name": "Cut",
-                    "price": "60/65"
-                },
-                {
-                    "name": "Luxe Cut",
-                    "price": "90/95"
-                },
-                {
-                    "name": "Shampoo Style",
-                    "price": "40"
-                },
-                {
-                    "name": "Retouch",
                     "price": "65/70"
                 },
                 {
-                    "name": "Single Process",
-                    "price": "110/125"
+                    "name": "Luxe Cut",
+                    "price": "95/100"
                 },
                 {
-                    "name": "Total Overhaul",
-                    "price": "160-200"
+                    "name": "Shampoo Style",
+                    "price": "50"
+                },
+                {
+                    "name": "Retouch",
+                    "price": "87/95"
+                },
+                {
+                    "name": "Single Process",
+                    "price": "140/160"
+                },
+                {
+                    "name": "Full Overhaul",
+                    "price": "180/215"
                 },
                 {
                     "name": "Partial Revamp",
-                    "price": "115-170"
+                    "price": "145/160"
                 },
                 {
                     "name": "Refresh",
-                    "price": "60-85"
+                    "price": "85/100"
                 },
                 {
-                    "name": "Toner",
-                    "price": "45-65"
+                    "name": "Gloss",
+                    "price": "55/75"
                 },
                 {
                     "name": "Root Shadow/Root Melt",
-                    "price": "25-85"
+                    "price": "22/85"
                 },
                 {
-                    "name": "Wash & Blow",
-                    "price": "40"
+                    "name": "Shampoo & Style",
+                    "price": "50"
                 },
                 {
                     "name": "Revive Treatment",
-                    "price": "30-45"
+                    "price": "30/45"
+                },
+                {
+                    "name": "Style W/ Color Service*",
+                    "price": "20/30"
                 }
             ]
         },
@@ -60,7 +62,7 @@
             "items": [
                 {
                     "name": "Cut",
-                    "price": "35"
+                    "price": "45"
                 },
                 {
                     "name": "Gray Blending",

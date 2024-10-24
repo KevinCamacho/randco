@@ -59,10 +59,16 @@ const ServicesPage = () => {
 
 
             <Row style={{ marginTop: '68px' }}>
-                <div className="service-page-footer">{data.footer}</div>
+                <div className="service-page-footer">{'All the services we provide at R&Co are customized for each and every quest. Each head of hair is unique as is each face shape and skin tone. We pride ourselves on being masters of finding the perfect cut and color for each guest.'}</div>
             </Row>
             <Row style={{ marginTop: '17px' }}>
-                <div className="service-page-price-disclaimer">{data.priceDisclaimer}</div>
+                <div className="service-page-footer">{'* Color Services do not include blowout/style. Please add on "style w/ color service."'}</div>
+            </Row>
+            <Row style={{ marginTop: '5px' }}>
+                <div className="service-page-price-disclaimer">{'Price can increase depending on client hair and density as well as product usage.'}</div>
+            </Row>
+            <Row style={{ marginTop: '5px' }}>
+                <div className="service-page-price-disclaimer" style={{ fontSize: '70%' }}>{'*Price can be subjected to change at any time.*'}</div>
             </Row>
         </Container >
     )
