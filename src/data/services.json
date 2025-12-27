@@ -5,55 +5,55 @@
             "items": [
                 {
                     "name": "Cut",
-                    "price": "65/70"
+                    "price": "55/$70/$75"
                 },
                 {
                     "name": "Luxe Cut",
-                    "price": "95/100"
+                    "price": "85/$100/$105"
                 },
                 {
                     "name": "Shampoo Style",
-                    "price": "50"
+                    "price": "40/$50"
                 },
                 {
                     "name": "Retouch",
-                    "price": "87/95"
+                    "price": "75/$92/$100"
                 },
                 {
                     "name": "Single Process",
-                    "price": "140/160"
+                    "price": "150/$170"
                 },
                 {
                     "name": "Full Overhaul",
-                    "price": "180/215"
+                    "price": "170/$180/$215"
                 },
                 {
                     "name": "Partial Revamp",
-                    "price": "145/160"
+                    "price": "150/$170/$185"
                 },
                 {
                     "name": "Refresh",
-                    "price": "85/100"
+                    "price": "70/$85/$100"
                 },
                 {
                     "name": "Gloss",
-                    "price": "55/75"
+                    "price": "55/$75"
                 },
                 {
                     "name": "Root Shadow/Root Melt",
-                    "price": "22/85"
+                    "price": "45-$85"
                 },
                 {
                     "name": "Shampoo & Style",
-                    "price": "50"
+                    "price": "50/$55"
                 },
                 {
                     "name": "Revive Treatment",
-                    "price": "30/45"
+                    "price": "30/$45"
                 },
                 {
                     "name": "Style W/ Color Service*",
-                    "price": "20/30"
+                    "price": "20/$30"
                 }
             ]
         },
@@ -66,7 +66,7 @@
                 },
                 {
                     "name": "Gray Blending",
-                    "price": "35"
+                    "price": "50"
                 }
             ]
         }

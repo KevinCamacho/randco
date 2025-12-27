@@ -112,6 +112,11 @@ export const thingsToDo: IThingsToDo[] = [
                 name: "Montgomery Mercantile",
                 address: "18 Bridge St,\nMontgomery NY",
                 googleSearch: 'https://maps.google.com/?q=montgomery+mercantile+ny'
+            },
+            {
+                name: "Steadfast Heart",
+                address: "122 Clinton St,\nMontgomery NY",
+                googleSearch: 'https://maps.google.com/?q=montgomery+steadfast+heart'
             }
         ]
     }

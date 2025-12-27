@@ -24,7 +24,7 @@ const HomePage: FC<{ isMobile: boolean }> = ({ isMobile }) => {
     return (
         <Container fluid="md" className="route-root" style={{ textAlign: 'center' }}>
             <Row>
-                <Col xs={{ span: 12, order: 'last' }} md={4}>
+                {/* <Col xs={{ span: 12, order: 'last' }} md={4}>
                     <Carousel pause="hover">
                         {instagram.map((url: string) => {
                             return (
@@ -34,12 +34,12 @@ const HomePage: FC<{ isMobile: boolean }> = ({ isMobile }) => {
                             )
                         })}
                     </Carousel>
-                </Col>
-                <Col xs={{ span: 12, order: 'first' }} md={8}>
+                </Col> */}
+                <Col xs={{ span: 12, order: 'first' }} md={12}>
                     <Carousel pause="hover">
                         {carouselData.map((carouselItem) => {
                             const imageName = isMobile ? carouselItem.mobileImage : carouselItem.desktopImage;
-                            const carouselImage = require(`../images/${imageName}`);
+                            const carouselImage = require(`../images/carousel/${imageName}`);
                             return (
                                 <Carousel.Item className="cursor-pointer" onClick={() => handleCarouselImageClick(carouselItem)}>
                                     <LazyLoadImage className="carousel-image" src={carouselImage} alt={carouselItem.altText} effect="blur" />

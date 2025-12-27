@@ -3,3 +3,16 @@
 #contactUsPage-container {
     @extend .oswald-font;
 }
+
+#contactUsPage_mainImage {
+    height: 300px;
+    width: 60%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    #contactUsPage_mainImage {
+        height: 200px;
+        width: 100%;
+    }
+}

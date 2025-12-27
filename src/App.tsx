@@ -47,7 +47,7 @@ const App = () => {
             <Routes>
                 <Route path='/' element={<HomePage isMobile={isMobile} />} />
                 <Route path='/services' element={<ServicesPage />} />
-                <Route path='/about-us' element={<AboutUsPage />} />
+                <Route path='/about-us' element={<AboutUsPage isMobile={isMobile} />} />
                 <Route path='/meet-the-stylists' element={<StylistsPage />} />
                 <Route path='/testimonials' element={<TestimonialsPage />} />
                 <Route path='/things-to-do' element={<ThingsToDoPage isMobile={isMobile} />} />

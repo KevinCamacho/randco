@@ -35,6 +35,12 @@ export const stylists: IStylist[] = [
         "image": "kendra.jpg",
         "name": "Kendra Nop",
         "instagram": "https://www.instagram.com/dkhconop/",
-        "flavorText": "Growing up Kendra Nop had always wanted to be a hairdresser. She has followed in the foot steps of her Aunt. Attending Sussex Technical School for cosmetology has given her the education and drive to be the hairdresser she is today. Having a dual license in NY & NJ for 22 years has given her the opportunity to meet and make clients be comfortable and feel great about themselves. She is a wife of 20 years and a mother of 5 children. Life is busy but she still enjoys attending education classes and workshops. She believes working with a great team of hairdressers at R & Co   a daily workshop!"
+        "flavorText": "Growing up Kendra Nop had always wanted to be a hairdresser. She has followed in the foot steps of her Aunt. Attending Sussex Technical School for cosmetology has given her the education and drive to be the hairdresser she is today. Having a dual license in NY & NJ for 22 years has given her the opportunity to meet and make clients be comfortable and feel great about themselves. She is a wife of 20 years and a mother of 5 children. Life is busy but she still enjoys attending education classes and workshops. She believes working with a great team of hairdressers at R & Co a daily workshop!"
+    },
+    {
+        "image": "brooklyn.jpg",
+        "name": "Brooklyn Tamayo",
+        "instagram": "https://www.instagram.com/styledbybrookielyn/",
+        "flavorText": "Growing up, Brooklyn had always dreamed of becoming a hairdresser. That dream turned into her reality when she became the youngest in her class—and the youngest ever to attend Empire Beauty School. As she continues to grow, Brooklyn is aspiring to perfect her craft in lived-in color and blondes, working toward becoming a true specialist in effortless, dimensional looks.\nOutside of the salon, Brooklyn can be found seeing new clothing or outside in nature. Even with a full schedule, she is constantly practicing, learning, and perfecting her skills. She believes that being surrounded by a supportive team of stylists turns every day into an opportunity to grow, create, and bring confidence to each client who sits in her chair."
     }
 ];

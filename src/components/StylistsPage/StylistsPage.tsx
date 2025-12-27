@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import './StylistsPage.scss';
-import heroImage from '../../images/StylistsPage/RCO-93-edited.jpg';
+import heroImage from '../../images/StylistsPage/team-image.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
