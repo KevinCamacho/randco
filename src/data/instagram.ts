@@ -1,5 +1,5 @@
 export const instagram: string[] = [
-    'https://www.instagram.com/p/DAWwwDNuOkG/',
-    'https://www.instagram.com/p/DAUaSZtuoxk/?img_index=1',
-    'https://www.instagram.com/p/C-S6jWyO--C/'
+    'https://www.instagram.com/p/DSvbt2UEauo/',
+    'https://www.instagram.com/p/DSmypI3jaNu/',
+    'https://www.instagram.com/p/DSk_773EWa5/'
 ];
