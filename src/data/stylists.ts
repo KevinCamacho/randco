@@ -20,12 +20,6 @@ export const stylists: IStylist[] = [
         "flavorText": "Katie is a color enthusiast who loves making people feel and look their best! With over 15 years experience, she specializes in wedding hair and balayage. When she isn’t hard at work she is with her two little boys hiking, skiing or just having fun! She loves her family, friends, the beach and eating out! When you sit in her chair you will feel completely at ease and in good hands."
     },
     {
-        "image": "alexis.jpg",
-        "name": "Alexis Loor",
-        "instagram": "https://www.instagram.com/alexis.evyenia/",
-        "flavorText": "Alexis’ is undoubtedly one of R&Co’s most versatile stylists.  From a beautifully blended balayage, to men’s hair cutting, to vibrant fashion colors…. her range behind the chair just continues to grow.\nBefore joining the team at R&Co Salon, Alexis was a Dance Captain with Royal Caribbean International.  Following her time at sea, she spent roughly five years working in NYC, before eventually moving back to the Hudson Valley to raise her children.\nWith a passion for creativity, hospitality and mental health/self-care, the progression of her career made it feel as though she had finally found her calling as a stylist!  She absolutely loves connecting with her guests, and creating a space where they can feel at ease knowing that their hair is in good hands.\nAlexis describes herself as a “forever student”, and consistently prioritizes her education.  She loves staying up to date on the latest trends, products, techniques and tools within the industry.\nWhen she’s not doing hair, you can find her spending time with her 3 awesome kids, enjoying a cup of coffee, or hiking one of the many trails here in the Hudson Valley!\nFun Fact:  Alexis’ favorite holidays are Valentine’s Day and Halloween!!"
-    },
-    {
         "image": "aimee.jpg",
         "name": "Aimee Byrnes",
         "instagram": "https://www.instagram.com/hairbyaimeelyn/",
