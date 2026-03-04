@@ -1,0 +1,45 @@
+export interface IServiceItem {
+    name: string;
+    price: string;
+}
+
+export interface IServiceCategory {
+    title: string;
+    items: IServiceItem[];
+}
+
+export interface IServicesData {
+    serviceList: IServiceCategory[];
+}
+
+export const services: IServicesData = {
+    serviceList: [
+        {
+            title: "Women",
+            items: [
+                { name: "Cut", price: "55/$70/$75" },
+                { name: "Luxe Cut", price: "85/$100/$105" },
+                { name: "Shampoo Style", price: "40/$50" },
+                { name: "Retouch", price: "75/$92/$100" },
+                { name: "Single Process", price: "150/$170" },
+                { name: "Full Overhaul", price: "170/$180/$215" },
+                { name: "Partial Revamp", price: "150/$170/$185" },
+                { name: "Refresh", price: "70/$85/$100" },
+                { name: "Gloss", price: "55/$75" },
+                { name: "Root Shadow/Root Melt", price: "45-$85" },
+                { name: "Shampoo & Style", price: "50/$55" },
+                { name: "Revive Treatment", price: "30/$45" },
+                { name: "Style W/ Color Service*", price: "20/$30" }
+            ]
+        },
+        {
+            title: "Men",
+            items: [
+                { name: "Cut", price: "45" },
+                { name: "Gray Blending", price: "50" }
+            ]
+        }
+    ]
+};
+
+export default services;

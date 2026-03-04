@@ -1,0 +1,29 @@
+export interface IProduct {
+    productName: string;
+    productImage: string;
+    productDescription: string;
+    productLink?: string;
+}
+
+export interface IProductsData {
+    heroImage: string;
+    heroText: string;
+    items: IProduct[];
+}
+
+export const products: IProductsData = {
+    heroImage: 'hero.jpg',
+    heroText: "Here at Raquel & Company our goal is to use and offer the best hair products available. That's why we're proud to offer these products in our salon!",
+    items: [
+        {
+            productName: 'R+Co Products',
+            productImage: 'RCO-105.jpg',
+            productDescription: `R+Co is a collective of some of the most forward-thinking, rule-bending hairstylists in the business. We are a think tank of top editorial and salon stylists and educators—with a combined century of hairdressing knowledge and experience—and we make sure that we have more than one viewpoint on everything we do.
+R+Co is about an experience. The packaging and fragrances were designed to enhance that experience and evoke a feeling, place, style or attitude. You’ll know just by looking at a bottle or tube what a product is meant to do, and the subtle yet sophisticated fragrances—meant for both men and women.
+Our award-winning line of haircare products feature unique ingredients and benefits designed to deliver immediate, high-performing results while keeping hair and scalp health at top-of-mind. All our formulas are color-safe, heat and UV protective, vegan, cruelty and gluten-free, and without harmful ingredients such as parabens, sulfates (SLS or SLES), mineral oil and petroleum. `,
+            productLink: 'https://www.randco.com/?rfsn=3878507.3af604&utm_content=cloudflare&utm_source=refersion&utm_medium=affiliate&utm_campaign=3878507'
+        }
+    ]
+};
+
+export default products;
