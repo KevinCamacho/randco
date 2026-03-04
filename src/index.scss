@@ -108,10 +108,15 @@ code {
   @extend .social-logo;
   height: 25px;
   width: 25px;
-  object-fit: contain;
 }
 
 .insta-logo {
+  @extend .social-logo;
+  height: 25px;
+  width: 25px;
+}
+
+.tiktok-logo {
   @extend .social-logo;
   height: 25px;
   width: 25px;

@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import heroImage from '../../images/ContactUsPage/hero.jpg';
 import facebookIcon from '../../images/socials/fb_logo.png';
 import instaIcon from '../../images/socials/insta_logo.png';
+import tiktokIcon from '../../images/socials/tiktok_logo.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ContactUsPage: FC = () => {
@@ -22,6 +23,7 @@ const ContactUsPage: FC = () => {
                 <div style={{ marginRight: '17px' }}>Follow us:</div>
                 <img className="facebook-logo" src={facebookIcon} alt="facebook" onClick={() => window.open('https://www.facebook.com/RaquelandCompany')} />
                 <img style={{ marginLeft: '17px' }} className="insta-logo" src={instaIcon} alt="instagram" onClick={() => window.open('https://www.instagram.com/randcosalon/')} />
+                <img style={{ marginLeft: '17px' }} className="tiktok-logo" src={tiktokIcon} alt="tiktok" onClick={() => window.open('https://www.tiktok.com/@randcosalonny?_r=1&_t=ZP-94OOl08Nbnb')} />
             </div>
             <Row style={{ marginTop: '34px' }}>
                 <div>Call us:</div><a className="color-corrected-link" href="tel:8454573660" target="_blank" rel="noopener noreferrer">845-457-3660</a>
