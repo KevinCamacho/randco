@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+#salonPoliciesPage-container {}
+
+#salonPoliciesPage-title {
+    @extend .oswald-font;
+    font-size: 200%;
+}
+
+.policy-section {}
+
+.policy-title {
+    @extend .oswald-font;
+    font-size: 150%;
+}
+
+.policy-content {
+    margin-top: 17px !important;
+    @extend .oswald-font;
+}
+
+#salonPoliciesPage_mainImage {
+    height: 250px;
+    width: 70%;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {
+    #salonPoliciesPage_mainImage {
+        height: 200px;
+        width: 100%;
+    }
+}

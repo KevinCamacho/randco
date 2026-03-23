@@ -11,8 +11,12 @@ export { carouselData } from './carousel';
 export type { ICarousel } from './carousel';
 
 export { instagram } from './instagram';
+
 export { services } from './services';
 export type { IServiceItem, IServiceCategory, IServicesData } from './services';
 
 export { products } from './products';
 export type { IProduct, IProductsData } from './products';
+
+export { salonPolicies } from './salonPolicies';
+export type { ISalonPolicies, IPolicySection } from './salonPolicies';

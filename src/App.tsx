@@ -16,6 +16,8 @@ import { useMediaQuery } from 'react-responsive';
 import logoLight from './images/logoLight192.png';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import TestimonialsPage from './components/TestimonialsPage/TestimonialsPage';
+import BookOnlinePage from './components/BookOnlinePage/BookOnlinePage';
+import SalonPoliciesPage from './components/SalonPoliciesPage/SalonPoliciesPage';
 
 
 const App = () => {
@@ -38,6 +40,8 @@ const App = () => {
                                 <Nav.Link eventKey="/testimonials">Client Thoughts</Nav.Link>
                                 <Nav.Link eventKey="/things-to-do">Things To Do</Nav.Link>
                                 <Nav.Link eventKey="/products">Products</Nav.Link>
+                                <Nav.Link eventKey="/book-online">Book Online</Nav.Link>
+                                <Nav.Link eventKey="/salon-policies">Salon Policies</Nav.Link>
                                 <Nav.Link eventKey="/contact-us">Contact Us</Nav.Link>
                             </Nav>
                         </Offcanvas.Body>
@@ -52,6 +56,8 @@ const App = () => {
                 <Route path='/testimonials' element={<TestimonialsPage />} />
                 <Route path='/things-to-do' element={<ThingsToDoPage isMobile={isMobile} />} />
                 <Route path='/products' element={<ProductsPage />} />
+                <Route path='/book-online' element={<BookOnlinePage />} />
+                <Route path='/salon-policies' element={<SalonPoliciesPage />} />
                 <Route path='/contact-us' element={<ContactUsPage />} />
             </Routes>
         </div>
