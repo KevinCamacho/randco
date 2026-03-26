@@ -9,8 +9,8 @@ export interface ICarousel {
 
 export const carouselData: ICarousel[] = [
     {
-        "desktopImage": "6E1A7252.jpg",
-        "mobileImage": "6E1A7268.jpg",
+        "desktopImage": "6E1A7305.jpg",
+        "mobileImage": "6E1A7279.jpg",
         "text": "Meet the team behind it all",
         "altText": "Meet the team",
         "navigate": "/meet-the-stylists"

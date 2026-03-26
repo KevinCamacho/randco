@@ -3,7 +3,7 @@ import './AboutUsPage.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import payTerminal from '../../images/AboutUsPage/hero.jpg';
+import hero from '../../images/AboutUsPage/hero.jpg';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const AboutUsPage: FC<{ isMobile: boolean }> = ({ isMobile }) => {
@@ -11,7 +11,7 @@ const AboutUsPage: FC<{ isMobile: boolean }> = ({ isMobile }) => {
     const raquelImage = require(`../../images/AboutUsPage/${raquelImageName}`);
     return (
         <Container id="aboutUsPage-container" fluid="md" className="route-root" style={{ textAlign: 'center' }}>
-            <LazyLoadImage id="aboutUsPage_mainImage" src={payTerminal} effect="blur" />
+            <LazyLoadImage id="aboutUsPage_mainImage" src={hero} effect="blur" />
             <Row style={{ marginTop: '17px' }}>
                 <div id="aboutUsPage-AboutUsText">About Us</div>
             </Row>
